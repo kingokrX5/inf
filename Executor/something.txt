@@ -1,0 +1,5032 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
+using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
+using k9xCm0a3lTIyMtXHl69;
+using m0BBmIaf9Ll2mOgZEY1;
+
+namespace tUAZUse5UfWFsRsO8q
+{
+	// Token: 0x0200000C RID: 12
+	internal class R61CSVGZUwXcWdfvYm
+	{
+		// Token: 0x06000037 RID: 55 RVA: 0x00005770 File Offset: 0x00003970
+		static R61CSVGZUwXcWdfvYm()
+		{
+			R61CSVGZUwXcWdfvYm.nWYKvQALW7 = Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554444)).Assembly;
+			R61CSVGZUwXcWdfvYm.C0FKAyReFG = new uint[]
+			{
+				3614090360U,
+				3905402710U,
+				606105819U,
+				3250441966U,
+				4118548399U,
+				1200080426U,
+				2821735955U,
+				4249261313U,
+				1770035416U,
+				2336552879U,
+				4294925233U,
+				2304563134U,
+				1804603682U,
+				4254626195U,
+				2792965006U,
+				1236535329U,
+				4129170786U,
+				3225465664U,
+				643717713U,
+				3921069994U,
+				3593408605U,
+				38016083U,
+				3634488961U,
+				3889429448U,
+				568446438U,
+				3275163606U,
+				4107603335U,
+				1163531501U,
+				2850285829U,
+				4243563512U,
+				1735328473U,
+				2368359562U,
+				4294588738U,
+				2272392833U,
+				1839030562U,
+				4259657740U,
+				2763975236U,
+				1272893353U,
+				4139469664U,
+				3200236656U,
+				681279174U,
+				3936430074U,
+				3572445317U,
+				76029189U,
+				3654602809U,
+				3873151461U,
+				530742520U,
+				3299628645U,
+				4096336452U,
+				1126891415U,
+				2878612391U,
+				4237533241U,
+				1700485571U,
+				2399980690U,
+				4293915773U,
+				2240044497U,
+				1873313359U,
+				4264355552U,
+				2734768916U,
+				1309151649U,
+				4149444226U,
+				3174756917U,
+				718787259U,
+				3951481745U
+			};
+			R61CSVGZUwXcWdfvYm.qpMKfTvCwH = false;
+			R61CSVGZUwXcWdfvYm.pS2KQtMgYO = false;
+			R61CSVGZUwXcWdfvYm.TpqKM0ULMZ = null;
+			R61CSVGZUwXcWdfvYm.cD6K35yaKH = null;
+			R61CSVGZUwXcWdfvYm.nb8K5HIvL5 = new object();
+			R61CSVGZUwXcWdfvYm.e9EKPmMuZ5 = 0;
+			R61CSVGZUwXcWdfvYm.orkKITwVLf = new object();
+			R61CSVGZUwXcWdfvYm.rMdKF9lSwn = null;
+			R61CSVGZUwXcWdfvYm.TdcKGUQvCB = null;
+			R61CSVGZUwXcWdfvYm.kqQKeSHYC2 = new byte[0];
+			R61CSVGZUwXcWdfvYm.QCAK9Bu2Qd = new byte[0];
+			R61CSVGZUwXcWdfvYm.HoNK8mhgOA = IntPtr.Zero;
+			R61CSVGZUwXcWdfvYm.Mh1KNxNikf = IntPtr.Zero;
+			R61CSVGZUwXcWdfvYm.z3fKk6bSfp = new string[0];
+			R61CSVGZUwXcWdfvYm.S7iKB4O9CN = new int[0];
+			R61CSVGZUwXcWdfvYm.FtdKgdHOEZ = 1;
+			R61CSVGZUwXcWdfvYm.iEsKS3Y2Pu = false;
+			R61CSVGZUwXcWdfvYm.IiBKWSq2Vi = new SortedList();
+			R61CSVGZUwXcWdfvYm.xOMKJRu0p8 = 0;
+			R61CSVGZUwXcWdfvYm.ytCKh9xAoa = 0L;
+			R61CSVGZUwXcWdfvYm.z11KoUL8EL = null;
+			R61CSVGZUwXcWdfvYm.Y6iKDusYpV = null;
+			R61CSVGZUwXcWdfvYm.BjYKRR3RoA = 0L;
+			R61CSVGZUwXcWdfvYm.CotKYXIohI = 0;
+			R61CSVGZUwXcWdfvYm.IxSKi4AOrX = false;
+			R61CSVGZUwXcWdfvYm.tTKKpqWyaq = false;
+			R61CSVGZUwXcWdfvYm.kF0KcjDnj3 = 0;
+			R61CSVGZUwXcWdfvYm.gCwKECbAOc = IntPtr.Zero;
+			R61CSVGZUwXcWdfvYm.r28KURoRVi = false;
+			R61CSVGZUwXcWdfvYm.H0dKTACSUb = new Hashtable();
+			R61CSVGZUwXcWdfvYm.m6XKnvFXo2 = null;
+			R61CSVGZUwXcWdfvYm.kcOKLVl1e8 = null;
+			R61CSVGZUwXcWdfvYm.AWlKZxw5JR = null;
+			R61CSVGZUwXcWdfvYm.yQoKmtiOaH = null;
+			R61CSVGZUwXcWdfvYm.zrKKzIIveW = null;
+			R61CSVGZUwXcWdfvYm.ePbadMxtNC = null;
+			R61CSVGZUwXcWdfvYm.VpcaKcuAD3 = IntPtr.Zero;
+			try
+			{
+				RSACryptoServiceProvider.UseMachineKeyStore = true;
+			}
+			catch
+			{
+			}
+		}
+
+		// Token: 0x06000038 RID: 56 RVA: 0x000058E8 File Offset: 0x00003AE8
+		private void XEBwhwXXH0()
+		{
+		}
+
+		// Token: 0x06000039 RID: 57 RVA: 0x000058EC File Offset: 0x00003AEC
+		internal static byte[] NYt9faKLN(object \u0020)
+		{
+			uint[] array = new uint[16];
+			uint num = (uint)((448 - \u0020.Length * 8 % 512 + 512) % 512);
+			if (num == 0U)
+			{
+				num = 512U;
+			}
+			uint num2 = (uint)((long)\u0020.Length + (long)((ulong)(num / 8U)) + 8L);
+			ulong num3 = (ulong)((long)\u0020.Length * 8L);
+			byte[] array2 = new byte[num2];
+			for (int i = 0; i < \u0020.Length; i++)
+			{
+				array2[i] = \u0020[i];
+			}
+			byte[] array3 = array2;
+			int num4 = \u0020.Length;
+			array3[num4] |= 128;
+			for (int j = 8; j > 0; j--)
+			{
+				array2[(int)(checked((IntPtr)(unchecked((ulong)num2 - (ulong)((long)j)))))] = (byte)(num3 >> (8 - j) * 8 & 255UL);
+			}
+			uint num5 = (uint)(array2.Length * 8 / 32);
+			uint num6 = 1732584193U;
+			uint num7 = 4023233417U;
+			uint num8 = 2562383102U;
+			uint num9 = 271733878U;
+			for (uint num10 = 0U; num10 < num5 / 16U; num10 += 1U)
+			{
+				uint num11 = num10 << 6;
+				for (uint num12 = 0U; num12 < 61U; num12 += 4U)
+				{
+					array[(int)(num12 >> 2)] = (uint)((int)array2[(int)(num11 + (num12 + 3U))] << 24 | (int)array2[(int)(num11 + (num12 + 2U))] << 16 | (int)array2[(int)(num11 + (num12 + 1U))] << 8 | (int)array2[(int)(num11 + num12)]);
+				}
+				uint num13 = num6;
+				uint num14 = num7;
+				uint num15 = num8;
+				uint num16 = num9;
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num6, num7, num8, num9, 0U, 7, 1U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num9, num6, num7, num8, 1U, 12, 2U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num8, num9, num6, num7, 2U, 17, 3U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num7, num8, num9, num6, 3U, 22, 4U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num6, num7, num8, num9, 4U, 7, 5U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num9, num6, num7, num8, 5U, 12, 6U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num8, num9, num6, num7, 6U, 17, 7U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num7, num8, num9, num6, 7U, 22, 8U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num6, num7, num8, num9, 8U, 7, 9U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num9, num6, num7, num8, 9U, 12, 10U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num8, num9, num6, num7, 10U, 17, 11U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num7, num8, num9, num6, 11U, 22, 12U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num6, num7, num8, num9, 12U, 7, 13U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num9, num6, num7, num8, 13U, 12, 14U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num8, num9, num6, num7, 14U, 17, 15U, array);
+				R61CSVGZUwXcWdfvYm.f5G8Lpnjn(ref num7, num8, num9, num6, 15U, 22, 16U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num6, num7, num8, num9, 1U, 5, 17U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num9, num6, num7, num8, 6U, 9, 18U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num8, num9, num6, num7, 11U, 14, 19U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num7, num8, num9, num6, 0U, 20, 20U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num6, num7, num8, num9, 5U, 5, 21U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num9, num6, num7, num8, 10U, 9, 22U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num8, num9, num6, num7, 15U, 14, 23U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num7, num8, num9, num6, 4U, 20, 24U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num6, num7, num8, num9, 9U, 5, 25U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num9, num6, num7, num8, 14U, 9, 26U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num8, num9, num6, num7, 3U, 14, 27U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num7, num8, num9, num6, 8U, 20, 28U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num6, num7, num8, num9, 13U, 5, 29U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num9, num6, num7, num8, 2U, 9, 30U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num8, num9, num6, num7, 7U, 14, 31U, array);
+				R61CSVGZUwXcWdfvYm.iUHNJCuFv(ref num7, num8, num9, num6, 12U, 20, 32U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num6, num7, num8, num9, 5U, 4, 33U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num9, num6, num7, num8, 8U, 11, 34U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num8, num9, num6, num7, 11U, 16, 35U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num7, num8, num9, num6, 14U, 23, 36U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num6, num7, num8, num9, 1U, 4, 37U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num9, num6, num7, num8, 4U, 11, 38U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num8, num9, num6, num7, 7U, 16, 39U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num7, num8, num9, num6, 10U, 23, 40U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num6, num7, num8, num9, 13U, 4, 41U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num9, num6, num7, num8, 0U, 11, 42U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num8, num9, num6, num7, 3U, 16, 43U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num7, num8, num9, num6, 6U, 23, 44U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num6, num7, num8, num9, 9U, 4, 45U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num9, num6, num7, num8, 12U, 11, 46U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num8, num9, num6, num7, 15U, 16, 47U, array);
+				R61CSVGZUwXcWdfvYm.jsfkIAKMO(ref num7, num8, num9, num6, 2U, 23, 48U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num6, num7, num8, num9, 0U, 6, 49U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num9, num6, num7, num8, 7U, 10, 50U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num8, num9, num6, num7, 14U, 15, 51U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num7, num8, num9, num6, 5U, 21, 52U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num6, num7, num8, num9, 12U, 6, 53U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num9, num6, num7, num8, 3U, 10, 54U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num8, num9, num6, num7, 10U, 15, 55U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num7, num8, num9, num6, 1U, 21, 56U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num6, num7, num8, num9, 8U, 6, 57U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num9, num6, num7, num8, 15U, 10, 58U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num8, num9, num6, num7, 6U, 15, 59U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num7, num8, num9, num6, 13U, 21, 60U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num6, num7, num8, num9, 4U, 6, 61U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num9, num6, num7, num8, 11U, 10, 62U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num8, num9, num6, num7, 2U, 15, 63U, array);
+				R61CSVGZUwXcWdfvYm.aNSBtuTYo(ref num7, num8, num9, num6, 9U, 21, 64U, array);
+				num6 += num13;
+				num7 += num14;
+				num8 += num15;
+				num9 += num16;
+			}
+			byte[] array4 = new byte[16];
+			Array.Copy(BitConverter.GetBytes(num6), 0, array4, 0, 4);
+			Array.Copy(BitConverter.GetBytes(num7), 0, array4, 4, 4);
+			Array.Copy(BitConverter.GetBytes(num8), 0, array4, 8, 4);
+			Array.Copy(BitConverter.GetBytes(num9), 0, array4, 12, 4);
+			return array4;
+		}
+
+		// Token: 0x0600003A RID: 58 RVA: 0x00005F50 File Offset: 0x00004150
+		private static void f5G8Lpnjn(ref uint \u0020, uint \u0020, uint \u0020, uint \u0020, uint \u0020, ushort \u0020, uint \u0020, object \u0020)
+		{
+			\u0020 += R61CSVGZUwXcWdfvYm.O4yg7RN8l(\u0020 + ((\u0020 & \u0020) | (~\u0020 & \u0020)) + \u0020[(int)\u0020] + R61CSVGZUwXcWdfvYm.C0FKAyReFG[(int)(\u0020 - 1U)], \u0020);
+		}
+
+		// Token: 0x0600003B RID: 59 RVA: 0x00005F7C File Offset: 0x0000417C
+		private static void iUHNJCuFv(ref uint \u0020, uint \u0020, uint \u0020, uint \u0020, uint \u0020, ushort \u0020, uint \u0020, object \u0020)
+		{
+			\u0020 += R61CSVGZUwXcWdfvYm.O4yg7RN8l(\u0020 + ((\u0020 & \u0020) | (\u0020 & ~\u0020)) + \u0020[(int)\u0020] + R61CSVGZUwXcWdfvYm.C0FKAyReFG[(int)(\u0020 - 1U)], \u0020);
+		}
+
+		// Token: 0x0600003C RID: 60 RVA: 0x00005FA8 File Offset: 0x000041A8
+		private static void jsfkIAKMO(ref uint \u0020, uint \u0020, uint \u0020, uint \u0020, uint \u0020, ushort \u0020, uint \u0020, object \u0020)
+		{
+			\u0020 += R61CSVGZUwXcWdfvYm.O4yg7RN8l(\u0020 + (\u0020 ^ \u0020 ^ \u0020) + \u0020[(int)\u0020] + R61CSVGZUwXcWdfvYm.C0FKAyReFG[(int)(\u0020 - 1U)], \u0020);
+		}
+
+		// Token: 0x0600003D RID: 61 RVA: 0x00005FD0 File Offset: 0x000041D0
+		private static void aNSBtuTYo(ref uint \u0020, uint \u0020, uint \u0020, uint \u0020, uint \u0020, ushort \u0020, uint \u0020, object \u0020)
+		{
+			\u0020 += R61CSVGZUwXcWdfvYm.O4yg7RN8l(\u0020 + (\u0020 ^ (\u0020 | ~\u0020)) + \u0020[(int)\u0020] + R61CSVGZUwXcWdfvYm.C0FKAyReFG[(int)(\u0020 - 1U)], \u0020);
+		}
+
+		// Token: 0x0600003E RID: 62 RVA: 0x00005FF8 File Offset: 0x000041F8
+		private static uint O4yg7RN8l(uint \u0020, ushort \u0020)
+		{
+			return \u0020 >> (int)(32 - \u0020) | \u0020 << (int)\u0020;
+		}
+
+		// Token: 0x0600003F RID: 63 RVA: 0x0000600C File Offset: 0x0000420C
+		internal static bool hETS3Vabs()
+		{
+			if (!R61CSVGZUwXcWdfvYm.qpMKfTvCwH)
+			{
+				R61CSVGZUwXcWdfvYm.bXrhoO84j();
+				R61CSVGZUwXcWdfvYm.qpMKfTvCwH = true;
+			}
+			return R61CSVGZUwXcWdfvYm.pS2KQtMgYO;
+		}
+
+		// Token: 0x06000040 RID: 64 RVA: 0x00006028 File Offset: 0x00004228
+		internal R61CSVGZUwXcWdfvYm()
+		{
+		}
+
+		// Token: 0x06000041 RID: 65 RVA: 0x00006030 File Offset: 0x00004230
+		private void RHWW8Pknm(byte[] \u0020, byte[] \u0020, byte[] \u0020)
+		{
+			int num = \u0020.Length % 4;
+			int num2 = \u0020.Length / 4;
+			byte[] array = new byte[\u0020.Length];
+			int num3 = \u0020.Length / 4;
+			uint num4 = 0U;
+			if (num > 0)
+			{
+				num2++;
+			}
+			for (int i = 0; i < num2; i++)
+			{
+				int num5 = i % num3;
+				int num6 = i * 4;
+				uint num7 = (uint)(num5 * 4);
+				uint num8 = (uint)((int)\u0020[(int)(num7 + 3U)] << 24 | (int)\u0020[(int)(num7 + 2U)] << 16 | (int)\u0020[(int)(num7 + 1U)] << 8 | (int)\u0020[(int)num7]);
+				uint num9 = 255U;
+				int num10 = 0;
+				uint num11;
+				if (i == num2 - 1 && num > 0)
+				{
+					num11 = 0U;
+					num4 += num8;
+					for (int j = 0; j < num; j++)
+					{
+						if (j > 0)
+						{
+							num11 <<= 8;
+						}
+						num11 |= (uint)\u0020[\u0020.Length - (1 + j)];
+					}
+				}
+				else
+				{
+					num4 += num8;
+					num7 = (uint)num6;
+					num11 = (uint)((int)\u0020[(int)(num7 + 3U)] << 24 | (int)\u0020[(int)(num7 + 2U)] << 16 | (int)\u0020[(int)(num7 + 1U)] << 8 | (int)\u0020[(int)num7]);
+				}
+				uint num12 = num4;
+				uint num13 = 1182610178U;
+				uint num14 = 12544038U;
+				uint num15 = 1828535243U;
+				uint num16 = num12;
+				uint num17 = num15 & 16711935U;
+				uint num18 = num15 & 4278255360U;
+				num17 = ((num17 >> 8 | num18 << 8) ^ num14);
+				num15 = (num15 << 15 | num15 >> 17);
+				uint num19 = num13 + 1097882121U ^ 1901628585U;
+				ulong num20 = (ulong)(num15 * num15);
+				if (num20 == 0UL)
+				{
+					num20 -= 1UL;
+				}
+				num13 = (uint)((ulong)(num13 * num13) % num20);
+				num14 ^= num15;
+				num20 = (ulong)(1990532510U * num15);
+				if (num20 == 0UL)
+				{
+					num20 -= 1UL;
+				}
+				num16 = (uint)((ulong)(num16 * num16) % num20);
+				num16 ^= num16 << 8;
+				num16 += num13;
+				num16 ^= num16 << 23;
+				num16 += num14;
+				num16 ^= num16 >> 9;
+				num16 += num16;
+				num16 = ((num15 << 4) - num15 ^ num14) + num16;
+				num4 = num12 + (uint)num16;
+				if (i == num2 - 1 && num > 0)
+				{
+					uint num21 = num4 ^ num11;
+					for (int k = 0; k < num; k++)
+					{
+						if (k > 0)
+						{
+							num9 <<= 8;
+							num10 += 8;
+						}
+						array[num6 + k] = (byte)((num21 & num9) >> num10);
+					}
+				}
+				else
+				{
+					uint num22 = num4 ^ num11;
+					array[num6] = (byte)(num22 & 255U);
+					array[num6 + 1] = (byte)((num22 & 65280U) >> 8);
+					array[num6 + 2] = (byte)((num22 & 16711680U) >> 16);
+					array[num6 + 3] = (byte)((num22 & 4278190080U) >> 24);
+				}
+			}
+			R61CSVGZUwXcWdfvYm.kqQKeSHYC2 = array;
+		}
+
+		// Token: 0x06000042 RID: 66 RVA: 0x00006388 File Offset: 0x00004588
+		internal static SymmetricAlgorithm hvTJ3iU5J()
+		{
+			SymmetricAlgorithm result = null;
+			if (R61CSVGZUwXcWdfvYm.hETS3Vabs())
+			{
+				result = new AesCryptoServiceProvider();
+			}
+			else
+			{
+				try
+				{
+					result = new RijndaelManaged();
+				}
+				catch
+				{
+					try
+					{
+						result = (SymmetricAlgorithm)Activator.CreateInstance("System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "System.Security.Cryptography.AesCryptoServiceProvider").Unwrap();
+					}
+					catch
+					{
+						result = (SymmetricAlgorithm)Activator.CreateInstance("System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "System.Security.Cryptography.AesCryptoServiceProvider").Unwrap();
+					}
+				}
+			}
+			return result;
+		}
+
+		// Token: 0x06000043 RID: 67 RVA: 0x0000641C File Offset: 0x0000461C
+		internal static void bXrhoO84j()
+		{
+			try
+			{
+				new MD5CryptoServiceProvider();
+			}
+			catch
+			{
+				R61CSVGZUwXcWdfvYm.pS2KQtMgYO = true;
+				return;
+			}
+			try
+			{
+				R61CSVGZUwXcWdfvYm.pS2KQtMgYO = CryptoConfig.AllowOnlyFipsAlgorithms;
+			}
+			catch
+			{
+			}
+		}
+
+		// Token: 0x06000044 RID: 68 RVA: 0x00006474 File Offset: 0x00004674
+		internal static byte[] bnuoAJ350(object \u0020)
+		{
+			if (!R61CSVGZUwXcWdfvYm.hETS3Vabs())
+			{
+				return new MD5CryptoServiceProvider().ComputeHash(\u0020);
+			}
+			return R61CSVGZUwXcWdfvYm.NYt9faKLN(\u0020);
+		}
+
+		// Token: 0x06000045 RID: 69 RVA: 0x00006494 File Offset: 0x00004694
+		internal static void EFhDQtwZt(object \u0020, object \u0020, uint \u0020, object \u0020)
+		{
+			while (\u0020 > 0U)
+			{
+				int num = (\u0020 > (uint)\u0020.Length) ? \u0020.Length : ((int)\u0020);
+				\u0020.Read(\u0020, 0, num);
+				R61CSVGZUwXcWdfvYm.PdSRVafEa(\u0020, \u0020, 0, num);
+				\u0020 -= (uint)num;
+			}
+		}
+
+		// Token: 0x06000046 RID: 70 RVA: 0x000064D8 File Offset: 0x000046D8
+		internal static void PdSRVafEa(object \u0020, object \u0020, int \u0020, int \u0020)
+		{
+			\u0020.TransformBlock(\u0020, \u0020, \u0020, \u0020, \u0020);
+		}
+
+		// Token: 0x06000047 RID: 71 RVA: 0x000064E8 File Offset: 0x000046E8
+		internal static uint Ht7Yb8T33(uint \u0020, int \u0020, long \u0020, object \u0020)
+		{
+			for (int i = 0; i < \u0020; i++)
+			{
+				\u0020.BaseStream.Position = \u0020 + (long)(i * 40 + 8);
+				uint num = \u0020.ReadUInt32();
+				uint num2 = \u0020.ReadUInt32();
+				\u0020.ReadUInt32();
+				uint num3 = \u0020.ReadUInt32();
+				if (num2 <= \u0020 && \u0020 < num2 + num)
+				{
+					return num3 + \u0020 - num2;
+				}
+			}
+			return 0U;
+		}
+
+		// Token: 0x06000048 RID: 72 RVA: 0x00006550 File Offset: 0x00004750
+		internal static void u7Zi0rdI7()
+		{
+			int num = 9;
+			for (;;)
+			{
+				int num2 = num;
+				HashAlgorithm hashAlgorithm;
+				string text2;
+				for (;;)
+				{
+					bool flag;
+					switch (num2)
+					{
+					case 0:
+						goto IL_18D5;
+					case 1:
+						flag = false;
+						num2 = 18;
+						if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+						{
+							num2 = 21;
+							continue;
+						}
+						continue;
+					case 2:
+						goto IL_218D;
+					case 3:
+						break;
+					case 4:
+						goto IL_207E;
+					case 5:
+						R61CSVGZUwXcWdfvYm.uiAvDqlM8YdkvTEnT1R(true);
+						num2 = 6;
+						continue;
+					case 6:
+						R61CSVGZUwXcWdfvYm.TpqKM0ULMZ = new RSACryptoServiceProvider();
+						num2 = 7;
+						continue;
+					case 7:
+					{
+						string text = R61CSVGZUwXcWdfvYm.jWXjLFl5r4alNPVGABs(R61CSVGZUwXcWdfvYm.flTTool3MrXgsZuroD9(typeof(R61CSVGZUwXcWdfvYm).TypeHandle).Assembly);
+						num2 = 20;
+						if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() != null)
+						{
+							num2 = 8;
+							continue;
+						}
+						continue;
+					}
+					case 8:
+						goto IL_1FD0;
+					case 9:
+						if (R61CSVGZUwXcWdfvYm.TpqKM0ULMZ == null)
+						{
+							goto IL_208F;
+						}
+						num2 = 6;
+						if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+						{
+							num2 = 8;
+							continue;
+						}
+						continue;
+					case 10:
+						goto IL_2015;
+					case 11:
+						goto IL_2038;
+					case 12:
+						try
+						{
+							R61CSVGZUwXcWdfvYm.f1fZSeaHsIW0CLsDrx8 f1fZSeaHsIW0CLsDrx = new R61CSVGZUwXcWdfvYm.f1fZSeaHsIW0CLsDrx8(R61CSVGZUwXcWdfvYm.jdIukOleIV1BuJ8S1Xf(R61CSVGZUwXcWdfvYm.nWYKvQALW7, "ouNyhIw5yaKUGjm0de.KyoRB7yTl4hydlmPeq"));
+							R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(R61CSVGZUwXcWdfvYm.fI41QUl9pRS4QF5Bl51(f1fZSeaHsIW0CLsDrx), 0L);
+							byte[] array = R61CSVGZUwXcWdfvYm.f9SetNlkfNmm3wUZWi2(f1fZSeaHsIW0CLsDrx, (int)R61CSVGZUwXcWdfvYm.Y6bx5rlNH146Wsr22wW(R61CSVGZUwXcWdfvYm.fI41QUl9pRS4QF5Bl51(f1fZSeaHsIW0CLsDrx)));
+							byte[] array2 = new byte[32];
+							int num3 = 58 + 105;
+							array2[0] = (byte)num3;
+							array2[0] = 73 + 21;
+							array2[0] = 57 + 21;
+							array2[0] = 90 - 20;
+							array2[1] = 122 + 40;
+							int num4 = 231 - 77;
+							array2[1] = (byte)num4;
+							array2[1] = 6 + 117;
+							array2[1] = 213 - 108;
+							array2[2] = 40 + 22;
+							array2[2] = 5 + 122;
+							num3 = 138 - 46;
+							array2[2] = (byte)num3;
+							num4 = 249 - 83;
+							array2[2] = (byte)num4;
+							array2[2] = 73 + 107;
+							array2[3] = 35 + 61;
+							num3 = 172 - 57;
+							array2[3] = (byte)num3;
+							num4 = 224 - 74;
+							array2[3] = (byte)num4;
+							array2[3] = 239 - 79;
+							array2[3] = 190 - 63;
+							array2[3] = 123 - 5;
+							array2[4] = 96 + 23;
+							num4 = 150 - 50;
+							array2[4] = (byte)num4;
+							array2[4] = 229 - 76;
+							array2[4] = 137 - 45;
+							num3 = 145 - 48;
+							array2[4] = (byte)num3;
+							array2[4] = 144 + 10;
+							num3 = 221 - 73;
+							array2[5] = (byte)num3;
+							num3 = 60 + 116;
+							array2[5] = (byte)num3;
+							num3 = 99 + 15;
+							array2[5] = (byte)num3;
+							array2[5] = 122 + 49;
+							array2[6] = 190 - 63;
+							array2[6] = 35 + 82;
+							array2[6] = 240 - 80;
+							num4 = 29 + 107;
+							array2[6] = (byte)num4;
+							array2[7] = 212 - 70;
+							array2[7] = 35 + 95;
+							num3 = 27 + 36;
+							array2[7] = (byte)num3;
+							array2[7] = 58 + 102;
+							array2[7] = 155 + 16;
+							array2[8] = 46 + 42;
+							num3 = 12 + 15;
+							array2[8] = (byte)num3;
+							num3 = 151 - 50;
+							array2[8] = (byte)num3;
+							num4 = 52 + 31;
+							array2[8] = (byte)num4;
+							num4 = 161 - 53;
+							array2[8] = (byte)num4;
+							array2[8] = 71 + 68;
+							array2[9] = 144 - 48;
+							num3 = 182 - 60;
+							array2[9] = (byte)num3;
+							array2[9] = 194 - 64;
+							num3 = 15 + 120;
+							array2[9] = (byte)num3;
+							array2[10] = 106 + 28;
+							num4 = 34 + 90;
+							array2[10] = (byte)num4;
+							num3 = 216 - 72;
+							array2[10] = (byte)num3;
+							num3 = 239 - 79;
+							array2[10] = (byte)num3;
+							array2[10] = 53 + 25;
+							array2[10] = 142 + 44;
+							array2[11] = 19 + 14;
+							array2[11] = 144 - 48;
+							num4 = 223 - 74;
+							array2[11] = (byte)num4;
+							array2[11] = 209 - 69;
+							array2[11] = 56 + 12;
+							array2[11] = 6 - 4;
+							num4 = 109 + 1;
+							array2[12] = (byte)num4;
+							num3 = 172 - 57;
+							array2[12] = (byte)num3;
+							array2[12] = 142 - 47;
+							array2[12] = 61 + 0;
+							num4 = 43 + 99;
+							array2[12] = (byte)num4;
+							num3 = 43 - 35;
+							array2[12] = (byte)num3;
+							num3 = 161 - 53;
+							array2[13] = (byte)num3;
+							num4 = 27 + 44;
+							array2[13] = (byte)num4;
+							num4 = 27 + 24;
+							array2[13] = (byte)num4;
+							array2[13] = 59 - 19;
+							num3 = 135 - 45;
+							array2[14] = (byte)num3;
+							num3 = 57 + 64;
+							array2[14] = (byte)num3;
+							array2[14] = 105 + 40;
+							array2[14] = 144 - 48;
+							num3 = 175 - 60;
+							array2[14] = (byte)num3;
+							num3 = 62 + 10;
+							array2[15] = (byte)num3;
+							num4 = 16 + 104;
+							array2[15] = (byte)num4;
+							array2[15] = 1 + 106;
+							num3 = 13 + 17;
+							array2[15] = (byte)num3;
+							array2[15] = 203 + 32;
+							array2[16] = 171 - 57;
+							array2[16] = 101 + 75;
+							num3 = 44 + 93;
+							array2[16] = (byte)num3;
+							array2[16] = 153 - 51;
+							array2[16] = 160 - 53;
+							num3 = 184 + 66;
+							array2[16] = (byte)num3;
+							array2[17] = 92 + 108;
+							num3 = 162 - 54;
+							array2[17] = (byte)num3;
+							num4 = 164 - 107;
+							array2[17] = (byte)num4;
+							num4 = 78 + 57;
+							array2[18] = (byte)num4;
+							num3 = 130 - 43;
+							array2[18] = (byte)num3;
+							array2[18] = 228 - 76;
+							array2[18] = 74 + 47;
+							array2[18] = 188 - 62;
+							array2[18] = 140 + 49;
+							array2[19] = 23 + 81;
+							array2[19] = 37 + 15;
+							num4 = 116 + 55;
+							array2[19] = (byte)num4;
+							array2[19] = 122 + 40;
+							array2[19] = 47 + 32;
+							array2[19] = 113 - 62;
+							num3 = 231 - 77;
+							array2[20] = (byte)num3;
+							num4 = 51 + 20;
+							array2[20] = (byte)num4;
+							array2[20] = 85 + 12;
+							array2[20] = 38 + 55;
+							array2[20] = 91 - 33;
+							num3 = 16 + 50;
+							array2[21] = (byte)num3;
+							num3 = 124 + 32;
+							array2[21] = (byte)num3;
+							num4 = 77 + 97;
+							array2[21] = (byte)num4;
+							num4 = 149 - 49;
+							array2[22] = (byte)num4;
+							num3 = 52 + 119;
+							array2[22] = (byte)num3;
+							num4 = 161 + 77;
+							array2[22] = (byte)num4;
+							num3 = 96 + 104;
+							array2[23] = (byte)num3;
+							num4 = 68 + 72;
+							array2[23] = (byte)num4;
+							array2[23] = 198 - 66;
+							array2[23] = 134 + 47;
+							array2[24] = 14 + 8;
+							num3 = 82 + 38;
+							array2[24] = (byte)num3;
+							num3 = 46 + 105;
+							array2[24] = (byte)num3;
+							num4 = 218 - 72;
+							array2[25] = (byte)num4;
+							num4 = 163 - 54;
+							array2[25] = (byte)num4;
+							array2[25] = 192 - 64;
+							array2[25] = 14 + 29;
+							array2[25] = 239 - 79;
+							array2[25] = 241 + 2;
+							num3 = 147 - 49;
+							array2[26] = (byte)num3;
+							array2[26] = 240 - 80;
+							num4 = 162 + 86;
+							array2[26] = (byte)num4;
+							num4 = 130 - 43;
+							array2[27] = (byte)num4;
+							num3 = 28 + 63;
+							array2[27] = (byte)num3;
+							num3 = 187 - 62;
+							array2[27] = (byte)num3;
+							array2[27] = 97 - 23;
+							num3 = 164 - 54;
+							array2[28] = (byte)num3;
+							array2[28] = 8 + 92;
+							array2[28] = 45 + 110;
+							array2[28] = 92 - 63;
+							array2[29] = 127 - 42;
+							array2[29] = 240 - 80;
+							num4 = 105 + 95;
+							array2[29] = (byte)num4;
+							num3 = 6 + 84;
+							array2[30] = (byte)num3;
+							num4 = 31 + 0;
+							array2[30] = (byte)num4;
+							array2[30] = 105 - 2;
+							num4 = 126 - 42;
+							array2[31] = (byte)num4;
+							num3 = 58 + 31;
+							array2[31] = (byte)num3;
+							array2[31] = 90 + 123;
+							num4 = 105 + 40;
+							array2[31] = (byte)num4;
+							num4 = 192 - 64;
+							array2[31] = (byte)num4;
+							num4 = 58 - 16;
+							array2[31] = (byte)num4;
+							byte[] array3 = array2;
+							byte[] array4 = new byte[16];
+							array4[0] = 157 - 52;
+							int num5 = 80 + 93;
+							array4[0] = (byte)num5;
+							num5 = 21 + 70;
+							array4[0] = (byte)num5;
+							int num6 = 115 - 29;
+							array4[0] = (byte)num6;
+							num5 = 52 + 5;
+							array4[1] = (byte)num5;
+							num5 = 76 + 80;
+							array4[1] = (byte)num5;
+							array4[1] = 124 + 44;
+							array4[1] = 216 - 72;
+							array4[1] = 176 - 58;
+							num6 = 100 - 13;
+							array4[1] = (byte)num6;
+							num5 = 249 - 83;
+							array4[2] = (byte)num5;
+							array4[2] = 187 - 62;
+							array4[2] = 233 - 77;
+							array4[2] = 190 + 34;
+							array4[3] = 212 - 70;
+							array4[3] = 216 - 72;
+							array4[3] = 58 + 74;
+							num5 = 87 + 98;
+							array4[3] = (byte)num5;
+							num6 = 13 + 1;
+							array4[3] = (byte)num6;
+							array4[3] = 122 + 30;
+							array4[4] = 149 - 49;
+							num6 = 182 - 60;
+							array4[4] = (byte)num6;
+							array4[4] = 107 + 87;
+							num5 = 188 - 62;
+							array4[4] = (byte)num5;
+							array4[4] = 242 + 5;
+							array4[5] = 146 - 48;
+							num6 = 53 + 0;
+							array4[5] = (byte)num6;
+							array4[5] = 187 - 62;
+							num6 = 184 - 61;
+							array4[5] = (byte)num6;
+							array4[5] = 32 + 101;
+							array4[5] = 91 + 59;
+							num5 = 221 - 73;
+							array4[6] = (byte)num5;
+							num5 = 190 - 63;
+							array4[6] = (byte)num5;
+							array4[6] = 66 - 24;
+							array4[7] = 57 + 33;
+							array4[7] = 246 - 82;
+							array4[7] = 150 - 50;
+							num5 = 246 - 82;
+							array4[7] = (byte)num5;
+							array4[7] = 106 + 42;
+							array4[7] = 118 + 45;
+							num6 = 72 + 121;
+							array4[8] = (byte)num6;
+							array4[8] = 164 - 54;
+							array4[8] = 7 + 106;
+							num5 = 131 - 43;
+							array4[8] = (byte)num5;
+							num6 = 22 + 90;
+							array4[8] = (byte)num6;
+							array4[8] = 128 + 3;
+							num5 = 94 + 11;
+							array4[9] = (byte)num5;
+							array4[9] = 136 - 45;
+							num6 = 252 - 84;
+							array4[9] = (byte)num6;
+							array4[9] = 23 + 78;
+							array4[9] = 99 + 117;
+							array4[10] = 15 + 34;
+							array4[10] = 206 - 68;
+							num6 = 101 + 23;
+							array4[10] = (byte)num6;
+							array4[10] = 219 - 73;
+							array4[10] = 45 + 96;
+							num5 = 181 - 91;
+							array4[10] = (byte)num5;
+							array4[11] = 212 - 70;
+							num6 = 213 - 71;
+							array4[11] = (byte)num6;
+							array4[11] = 40 + 48;
+							array4[11] = 225 - 75;
+							array4[11] = 204 - 68;
+							num6 = 113 - 35;
+							array4[11] = (byte)num6;
+							num5 = 92 + 41;
+							array4[12] = (byte)num5;
+							num6 = 83 + 17;
+							array4[12] = (byte)num6;
+							num6 = 7 + 103;
+							array4[12] = (byte)num6;
+							num6 = 122 + 63;
+							array4[12] = (byte)num6;
+							array4[12] = 227 - 75;
+							array4[12] = 192 + 22;
+							num5 = 184 - 61;
+							array4[13] = (byte)num5;
+							num6 = 215 - 71;
+							array4[13] = (byte)num6;
+							num5 = 174 - 58;
+							array4[13] = (byte)num5;
+							num6 = 66 + 59;
+							array4[13] = (byte)num6;
+							num6 = 125 + 97;
+							array4[13] = (byte)num6;
+							num5 = 132 - 44;
+							array4[14] = (byte)num5;
+							array4[14] = 18 + 15;
+							array4[14] = 75 - 34;
+							array4[15] = 209 - 69;
+							array4[15] = 88 + 48;
+							array4[15] = 105 + 68;
+							array4[15] = 158 - 97;
+							byte[] array5 = array4;
+							object obj = R61CSVGZUwXcWdfvYm.bM0L7UlBDTWrlUBS14x();
+							R61CSVGZUwXcWdfvYm.iK1PUnlggaZfkprWCOS(obj, CipherMode.CBC);
+							ICryptoTransform transform = R61CSVGZUwXcWdfvYm.DKrTl7lSlIpcheTLNOe(obj, array3, array5);
+							Stream stream = R61CSVGZUwXcWdfvYm.SFniqwlWFmpBdHygQuB();
+							CryptoStream cryptoStream = new CryptoStream(stream, transform, CryptoStreamMode.Write);
+							R61CSVGZUwXcWdfvYm.miA5RUlJxCwEcRSs0it(cryptoStream, array, 0, array.Length);
+							R61CSVGZUwXcWdfvYm.YDyF5Klh4piCOpsyaPP(cryptoStream);
+							R61CSVGZUwXcWdfvYm.dfA5gqlYgwUZo8YpqxH(R61CSVGZUwXcWdfvYm.TpqKM0ULMZ, R61CSVGZUwXcWdfvYm.TVZGPOlRY44e5WoWPij(R61CSVGZUwXcWdfvYm.a8XBwfloV6BPY7b8QHw(), R61CSVGZUwXcWdfvYm.uWIJyDlDkK62yUpkEld(stream)));
+							R61CSVGZUwXcWdfvYm.xHFXP1liHMFvTmBXiPn(stream);
+							R61CSVGZUwXcWdfvYm.xHFXP1liHMFvTmBXiPn(cryptoStream);
+							R61CSVGZUwXcWdfvYm.qQ0HxplpvfgV7R4tJJx(f1fZSeaHsIW0CLsDrx);
+							int num7 = 0;
+							if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+							{
+								num7 = 0;
+							}
+							switch (num7)
+							{
+							default:
+								goto IL_2015;
+							}
+						}
+						catch
+						{
+							int num8 = 1;
+							if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num8 = 1;
+							}
+							for (;;)
+							{
+								switch (num8)
+								{
+								case 1:
+									flag = true;
+									num8 = 0;
+									if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+									{
+										num8 = 0;
+										continue;
+									}
+									continue;
+								}
+								break;
+							}
+							goto IL_2015;
+						}
+						goto IL_18D5;
+					case 13:
+					{
+						string text;
+						if (R61CSVGZUwXcWdfvYm.EX9sZslPKMO21P12lYJ(text) == 0)
+						{
+							num2 = 22;
+							continue;
+						}
+						goto IL_2027;
+					}
+					case 14:
+						try
+						{
+							hashAlgorithm = R61CSVGZUwXcWdfvYm.e7jJuFlIhdAwlPwc9ds();
+							int num9 = 4;
+							if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num9 = 2;
+							}
+							for (;;)
+							{
+								switch (num9)
+								{
+								default:
+								{
+									string text;
+									if (!R61CSVGZUwXcWdfvYm.yyAGPFlGiOIyNGC5lRZ(text))
+									{
+										goto IL_213D;
+									}
+									num9 = 1;
+									if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+									{
+										num9 = 0;
+									}
+									break;
+								}
+								case 1:
+									goto IL_2108;
+								case 2:
+									goto IL_214C;
+								case 3:
+									goto IL_213D;
+								case 4:
+									text2 = R61CSVGZUwXcWdfvYm.kbR2KilFYxhuAL0bq9r("SHA1");
+									num9 = 0;
+									if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+									{
+										num9 = 0;
+									}
+									break;
+								}
+							}
+							IL_2108:
+							goto IL_214C;
+							IL_213D:
+							return;
+							IL_214C:
+							goto IL_2237;
+						}
+						catch
+						{
+							int num10 = 0;
+							if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() != null)
+							{
+								num10 = 0;
+							}
+							switch (num10)
+							{
+							default:
+								return;
+							}
+						}
+						goto IL_218D;
+					case 15:
+						goto IL_2237;
+					case 16:
+						goto IL_CA;
+					case 17:
+						goto IL_E5;
+					case 18:
+						goto IL_208F;
+					case 19:
+						goto IL_E5;
+					case 20:
+					{
+						string text;
+						if (text != null)
+						{
+							num2 = 13;
+							continue;
+						}
+						return;
+					}
+					case 21:
+						return;
+					case 22:
+						return;
+					default:
+						goto IL_18D5;
+					}
+					IL_AC:
+					BinaryReader binaryReader = null;
+					num2 = 0;
+					if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+					{
+						num2 = 0;
+						continue;
+					}
+					continue;
+					IL_2015:
+					if (flag)
+					{
+						num2 = 19;
+						continue;
+					}
+					goto IL_AC;
+					IL_CA:
+					num2 = 2;
+					if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+					{
+						num2 = 0;
+						continue;
+					}
+					continue;
+					IL_18D5:
+					try
+					{
+						string text;
+						FileStream fileStream = new FileStream(text, FileMode.Open, FileAccess.Read, FileShare.Read);
+						int num11 = 23;
+						for (;;)
+						{
+							byte[] array6;
+							long num15;
+							int num16;
+							uint num17;
+							int num18;
+							int num19;
+							long num21;
+							long num23;
+							uint num24;
+							long num25;
+							uint num26;
+							switch (num11)
+							{
+							case 0:
+								goto IL_1DD3;
+							case 1:
+								goto IL_1D3A;
+							case 2:
+								goto IL_1B36;
+							case 3:
+								array6 = new byte[65536];
+								num11 = 15;
+								if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 0;
+									continue;
+								}
+								continue;
+							case 4:
+							{
+								long num12;
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, num12);
+								num11 = 12;
+								continue;
+							}
+							case 5:
+								goto IL_1BCD;
+							case 6:
+							{
+								FileStream fileStream2 = fileStream;
+								uint num13;
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream2, R61CSVGZUwXcWdfvYm.jXMdpSlnQlnBAa9TkkE(fileStream2) + (long)((ulong)num13));
+								num11 = 2;
+								continue;
+							}
+							case 7:
+							{
+								byte[] array7;
+								flag = !R61CSVGZUwXcWdfvYm.Vl7KkJ7lrkpVd49Lg5X(R61CSVGZUwXcWdfvYm.TpqKM0ULMZ, R61CSVGZUwXcWdfvYm.Tor6S67aUD8uSbiLXXy(hashAlgorithm), text2, array7);
+								num11 = 26;
+								if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 39;
+									continue;
+								}
+								continue;
+							}
+							case 8:
+							{
+								bool flag2 = R61CSVGZUwXcWdfvYm.Pdm0BPlEU4AhHKQMxFY(binaryReader) != 523;
+								int num14 = flag2 ? 96 : 112;
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, 152L);
+								R61CSVGZUwXcWdfvYm.Gm7eEAlUMFYUFOVbRHH(fileStream, array6, 0, num14);
+								array6[64] = 0;
+								array6[65] = 0;
+								array6[66] = 0;
+								array6[67] = 0;
+								R61CSVGZUwXcWdfvYm.i03feDlTaiwFYdeBUsH(hashAlgorithm, array6, 0, num14);
+								R61CSVGZUwXcWdfvYm.Gm7eEAlUMFYUFOVbRHH(fileStream, array6, 0, 128);
+								array6[32] = 0;
+								array6[33] = 0;
+								array6[34] = 0;
+								array6[35] = 0;
+								array6[36] = 0;
+								array6[37] = 0;
+								array6[38] = 0;
+								array6[39] = 0;
+								R61CSVGZUwXcWdfvYm.i03feDlTaiwFYdeBUsH(hashAlgorithm, array6, 0, 128);
+								num15 = R61CSVGZUwXcWdfvYm.jXMdpSlnQlnBAa9TkkE(fileStream);
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, 134L);
+								num16 = (int)R61CSVGZUwXcWdfvYm.Pdm0BPlEU4AhHKQMxFY(binaryReader);
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, num15);
+								R61CSVGZUwXcWdfvYm.VKiORRlctaJ3ZPpLj8i(hashAlgorithm, fileStream, (uint)(num16 * 40), array6);
+								long num12 = R61CSVGZUwXcWdfvYm.jXMdpSlnQlnBAa9TkkE(fileStream);
+								if (flag2)
+								{
+									goto IL_1DD3;
+								}
+								num11 = 9;
+								if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 42;
+									continue;
+								}
+								continue;
+							}
+							case 9:
+								goto IL_1C93;
+							case 10:
+								num17 = R61CSVGZUwXcWdfvYm.nuFj5clL9f2GfflgDZW(binaryReader);
+								num11 = 24;
+								continue;
+							case 11:
+							{
+								byte[] array7;
+								R61CSVGZUwXcWdfvYm.XYUpks7KwF1miPgDiOl(array7);
+								num18 = 7;
+								break;
+							}
+							case 12:
+								num19 = 0;
+								num11 = 21;
+								continue;
+							case 13:
+							{
+								uint num20;
+								byte[] array7 = R61CSVGZUwXcWdfvYm.zb5MYn7dX59rRTeLIt6(binaryReader, (int)num20);
+								num11 = 11;
+								continue;
+							}
+							case 14:
+								goto IL_1DEA;
+							case 15:
+								R61CSVGZUwXcWdfvYm.VKiORRlctaJ3ZPpLj8i(hashAlgorithm, fileStream, 152U, array6);
+								num11 = 8;
+								continue;
+							case 16:
+								goto IL_1DB5;
+							case 17:
+								goto IL_1C93;
+							case 18:
+								goto IL_1DB5;
+							case 19:
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, num21);
+								num11 = 13;
+								continue;
+							case 20:
+								goto IL_19C6;
+							case 21:
+								goto IL_1BFF;
+							case 22:
+								goto IL_1BCD;
+							case 23:
+								binaryReader = new BinaryReader(fileStream);
+								num11 = 2;
+								if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+								{
+									num11 = 3;
+									continue;
+								}
+								continue;
+							case 24:
+							{
+								uint num22 = R61CSVGZUwXcWdfvYm.nuFj5clL9f2GfflgDZW(binaryReader);
+								num11 = 37;
+								continue;
+							}
+							case 25:
+							{
+								uint num13;
+								num17 -= num13;
+								num11 = 6;
+								continue;
+							}
+							case 26:
+								goto IL_1A6E;
+							case 27:
+								if (num21 <= num23)
+								{
+									goto IL_19F0;
+								}
+								num11 = 6;
+								if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+								{
+									num11 = 17;
+									continue;
+								}
+								continue;
+							case 28:
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, (long)((ulong)(num24 + 32U)));
+								num11 = 44;
+								if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 29;
+									continue;
+								}
+								continue;
+							case 29:
+							{
+								uint num13;
+								if (num13 >= num17)
+								{
+									goto IL_1A8C;
+								}
+								num18 = 25;
+								break;
+							}
+							case 30:
+							{
+								uint num20;
+								num25 = num21 + (long)((ulong)num20);
+								num11 = 4;
+								continue;
+							}
+							case 31:
+								goto IL_1B36;
+							case 32:
+								goto IL_1A8C;
+							case 33:
+								num17 -= num26;
+								num11 = 40;
+								continue;
+							case 34:
+								goto IL_19C6;
+							case 35:
+							{
+								uint num13 = (uint)(num25 - num23);
+								num11 = 29;
+								if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 13;
+									continue;
+								}
+								continue;
+							}
+							case 36:
+								goto IL_19F0;
+							case 37:
+							{
+								uint num22;
+								R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, (long)((ulong)num22));
+								num11 = 31;
+								continue;
+							}
+							case 38:
+								R61CSVGZUwXcWdfvYm.VKiORRlctaJ3ZPpLj8i(hashAlgorithm, fileStream, num26, array6);
+								num11 = 26;
+								if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 33;
+									continue;
+								}
+								continue;
+							case 39:
+								goto IL_1F6E;
+							case 40:
+								goto IL_1B36;
+							case 41:
+								goto IL_1A8C;
+							case 42:
+								goto IL_1DEA;
+							case 43:
+								goto IL_1BFF;
+							case 44:
+							{
+								uint u = R61CSVGZUwXcWdfvYm.nuFj5clL9f2GfflgDZW(binaryReader);
+								uint num20 = R61CSVGZUwXcWdfvYm.nuFj5clL9f2GfflgDZW(binaryReader);
+								num21 = (long)((ulong)R61CSVGZUwXcWdfvYm.yiEQcTlZFCp8lZX7l2R(u, num16, num15, binaryReader));
+								num11 = 30;
+								continue;
+							}
+							case 45:
+								R61CSVGZUwXcWdfvYm.n6QjO4lzma6PiN8yQo6(hashAlgorithm, new byte[0], 0, 0);
+								num11 = 10;
+								if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+								{
+									num11 = 19;
+									continue;
+								}
+								continue;
+							default:
+								goto IL_1DD3;
+							}
+							IL_18EC:
+							num11 = num18;
+							continue;
+							IL_19C6:
+							num26 = (uint)R61CSVGZUwXcWdfvYm.bydjUtlmx1yk1yBAFns(num21 - num23, (long)((ulong)num17));
+							num11 = 22;
+							if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+							{
+								num11 = 38;
+								continue;
+							}
+							continue;
+							IL_19F0:
+							if (num23 >= num25)
+							{
+								goto IL_1C93;
+							}
+							num11 = 35;
+							if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num11 = 34;
+								continue;
+							}
+							continue;
+							IL_1A6E:
+							R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, num15 + (long)(num19 * 40) + 16L);
+							num11 = 10;
+							continue;
+							IL_1BFF:
+							if (num19 >= num16)
+							{
+								num11 = 45;
+								continue;
+							}
+							goto IL_1A6E;
+							IL_1A8C:
+							num19++;
+							num11 = 43;
+							if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num11 = 26;
+								continue;
+							}
+							continue;
+							IL_1B36:
+							if (num17 > 0U)
+							{
+								num11 = 22;
+								continue;
+							}
+							goto IL_1A8C;
+							IL_1BCD:
+							num23 = R61CSVGZUwXcWdfvYm.jXMdpSlnQlnBAa9TkkE(fileStream);
+							num11 = 27;
+							if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num11 = 2;
+								continue;
+							}
+							continue;
+							IL_1D3A:
+							R61CSVGZUwXcWdfvYm.VKiORRlctaJ3ZPpLj8i(hashAlgorithm, fileStream, num17, array6);
+							num11 = 19;
+							if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num11 = 32;
+								continue;
+							}
+							continue;
+							IL_1C93:
+							if (num23 < num25)
+							{
+								num18 = 20;
+								goto IL_18EC;
+							}
+							goto IL_1D3A;
+							IL_1DB5:
+							num24 = R61CSVGZUwXcWdfvYm.yiEQcTlZFCp8lZX7l2R(R61CSVGZUwXcWdfvYm.nuFj5clL9f2GfflgDZW(binaryReader), num16, num15, binaryReader);
+							num11 = 28;
+							continue;
+							IL_1DD3:
+							R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, 360L);
+							num11 = 18;
+							continue;
+							IL_1DEA:
+							R61CSVGZUwXcWdfvYm.fcGSmSl8lYiNCIrY1ni(fileStream, 376L);
+							num11 = 16;
+						}
+						IL_1F6E:
+						goto IL_CA;
+					}
+					catch
+					{
+						int num27 = 0;
+						if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() != null)
+						{
+							num27 = 0;
+						}
+						for (;;)
+						{
+							switch (num27)
+							{
+							default:
+								flag = true;
+								num27 = 0;
+								if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() == null)
+								{
+									num27 = 1;
+								}
+								break;
+							case 1:
+								goto IL_1FC1;
+							}
+						}
+						IL_1FC1:
+						goto IL_CA;
+					}
+					goto IL_1FD0;
+					IL_E5:
+					if (flag)
+					{
+						goto IL_2038;
+					}
+					num2 = 1;
+					if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+					{
+						num2 = 1;
+						continue;
+					}
+					continue;
+					IL_218D:
+					try
+					{
+						if (binaryReader != null)
+						{
+							int num28 = 0;
+							if (R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+							{
+								num28 = 0;
+							}
+							for (;;)
+							{
+								switch (num28)
+								{
+								default:
+									R61CSVGZUwXcWdfvYm.su41cL77aerAvaaLV9H(binaryReader);
+									num28 = 1;
+									if (R61CSVGZUwXcWdfvYm.ek7swLlfNCpVl62VOOZ() != null)
+									{
+										num28 = 0;
+									}
+									break;
+								case 1:
+									goto IL_21E6;
+								}
+							}
+						}
+						IL_21E6:
+						goto IL_E5;
+					}
+					catch
+					{
+						int num29 = 0;
+						if (!R61CSVGZUwXcWdfvYm.Ks47lMlAMJ3nLW7Tn5l())
+						{
+							num29 = 0;
+						}
+						switch (num29)
+						{
+						default:
+							goto IL_E5;
+						}
+					}
+					goto IL_2237;
+					IL_208F:
+					R61CSVGZUwXcWdfvYm.AuuspYlQZ3uQX6lw2BE();
+					num2 = 5;
+					continue;
+					IL_2237:
+					flag = false;
+					num2 = 12;
+				}
+				IL_2027:
+				hashAlgorithm = null;
+				num = 4;
+				continue;
+				IL_207E:
+				text2 = null;
+				num = 14;
+			}
+			return;
+			IL_1FD0:
+			return;
+			IL_2038:
+			throw new Exception(R61CSVGZUwXcWdfvYm.R1sspt7CZ8fNmJsEUnT(R61CSVGZUwXcWdfvYm.H3lqE47yEVI7tEKGgmC(R61CSVGZUwXcWdfvYm.WCE4jw7wH3bSHJGA9aQ(R61CSVGZUwXcWdfvYm.flTTool3MrXgsZuroD9(typeof(R61CSVGZUwXcWdfvYm).TypeHandle).Assembly)), " is tampered."));
+		}
+
+		// Token: 0x06000049 RID: 73 RVA: 0x00008804 File Offset: 0x00006A04
+		public static void iw7pwUwj2(RuntimeTypeHandle \u0020)
+		{
+			try
+			{
+				Type typeFromHandle = Type.GetTypeFromHandle(\u0020);
+				if (R61CSVGZUwXcWdfvYm.cD6K35yaKH == null)
+				{
+					object obj = R61CSVGZUwXcWdfvYm.nb8K5HIvL5;
+					lock (obj)
+					{
+						Dictionary<int, int> dictionary = new Dictionary<int, int>();
+						BinaryReader binaryReader = new BinaryReader(Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554444)).Assembly.GetManifestResourceStream("CyqfLhqxxwNV40woqR.o7g5LsrNSe3RZ2ZSjY"));
+						binaryReader.BaseStream.Position = 0L;
+						byte[] array = binaryReader.ReadBytes((int)binaryReader.BaseStream.Length);
+						binaryReader.Close();
+						if (array.Length != 0)
+						{
+							int num = array.Length % 4;
+							int num2 = array.Length / 4;
+							byte[] array2 = new byte[array.Length];
+							uint num3 = 0U;
+							if (num > 0)
+							{
+								num2++;
+							}
+							for (int i = 0; i < num2; i++)
+							{
+								int num4 = i * 4;
+								uint num5 = 255U;
+								int num6 = 0;
+								uint num7;
+								if (i == num2 - 1 && num > 0)
+								{
+									num7 = 0U;
+									for (int j = 0; j < num; j++)
+									{
+										if (j > 0)
+										{
+											num7 <<= 8;
+										}
+										num7 |= (uint)array[array.Length - (1 + j)];
+									}
+								}
+								else
+								{
+									uint num8 = (uint)num4;
+									num7 = (uint)((int)array[(int)(num8 + 3U)] << 24 | (int)array[(int)(num8 + 2U)] << 16 | (int)array[(int)(num8 + 1U)] << 8 | (int)array[(int)num8]);
+								}
+								num3 = num3;
+								num3 += R61CSVGZUwXcWdfvYm.cNZU1RY4l(num3);
+								if (i == num2 - 1 && num > 0)
+								{
+									uint num9 = num3 ^ num7;
+									for (int k = 0; k < num; k++)
+									{
+										if (k > 0)
+										{
+											num5 <<= 8;
+											num6 += 8;
+										}
+										array2[num4 + k] = (byte)((num9 & num5) >> num6);
+									}
+								}
+								else
+								{
+									uint num10 = num3 ^ num7;
+									array2[num4] = (byte)(num10 & 255U);
+									array2[num4 + 1] = (byte)((num10 & 65280U) >> 8);
+									array2[num4 + 2] = (byte)((num10 & 16711680U) >> 16);
+									array2[num4 + 3] = (byte)((num10 & 4278190080U) >> 24);
+								}
+							}
+							array = array2;
+							int num11 = array.Length / 8;
+							R61CSVGZUwXcWdfvYm.f1fZSeaHsIW0CLsDrx8 f1fZSeaHsIW0CLsDrx = new R61CSVGZUwXcWdfvYm.f1fZSeaHsIW0CLsDrx8(new MemoryStream(array));
+							for (int l = 0; l < num11; l++)
+							{
+								int key = f1fZSeaHsIW0CLsDrx.CxVa1Fe5O8();
+								int value = f1fZSeaHsIW0CLsDrx.CxVa1Fe5O8();
+								dictionary.Add(key, value);
+							}
+							f1fZSeaHsIW0CLsDrx.hPla0RBexk();
+						}
+						R61CSVGZUwXcWdfvYm.cD6K35yaKH = dictionary;
+					}
+				}
+				FieldInfo[] fields = typeFromHandle.GetFields(BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.GetField);
+				for (int m = 0; m < fields.Length; m++)
+				{
+					try
+					{
+						FieldInfo fieldInfo = fields[m];
+						int metadataToken = fieldInfo.MetadataToken;
+						int num12 = R61CSVGZUwXcWdfvYm.cD6K35yaKH[metadataToken];
+						bool flag2 = (num12 & 1073741824) > 0;
+						num12 &= 1073741823;
+						MethodInfo methodInfo = (MethodInfo)Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554444)).Module.ResolveMethod(num12, typeFromHandle.GetGenericArguments(), new Type[0]);
+						if (methodInfo.IsStatic)
+						{
+							fieldInfo.SetValue(null, Delegate.CreateDelegate(fieldInfo.FieldType, methodInfo));
+						}
+						else
+						{
+							ParameterInfo[] parameters = methodInfo.GetParameters();
+							int num13 = parameters.Length + 1;
+							Type[] array3 = new Type[num13];
+							if (methodInfo.DeclaringType.IsValueType)
+							{
+								array3[0] = methodInfo.DeclaringType.MakeByRefType();
+							}
+							else
+							{
+								array3[0] = Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(16777238));
+							}
+							for (int n = 0; n < parameters.Length; n++)
+							{
+								array3[n + 1] = parameters[n].ParameterType;
+							}
+							DynamicMethod dynamicMethod = new DynamicMethod(string.Empty, methodInfo.ReturnType, array3, typeFromHandle, true);
+							ILGenerator ilgenerator = dynamicMethod.GetILGenerator();
+							for (int num14 = 0; num14 < num13; num14++)
+							{
+								switch (num14)
+								{
+								case 0:
+									ilgenerator.Emit(OpCodes.Ldarg_0);
+									break;
+								case 1:
+									ilgenerator.Emit(OpCodes.Ldarg_1);
+									break;
+								case 2:
+									ilgenerator.Emit(OpCodes.Ldarg_2);
+									break;
+								case 3:
+									ilgenerator.Emit(OpCodes.Ldarg_3);
+									break;
+								default:
+									ilgenerator.Emit(OpCodes.Ldarg_S, num14);
+									break;
+								}
+							}
+							ilgenerator.Emit(OpCodes.Tailcall);
+							ilgenerator.Emit(flag2 ? OpCodes.Callvirt : OpCodes.Call, methodInfo);
+							ilgenerator.Emit(OpCodes.Ret);
+							fieldInfo.SetValue(null, dynamicMethod.CreateDelegate(typeFromHandle));
+						}
+					}
+					catch (Exception)
+					{
+					}
+				}
+			}
+			catch (Exception)
+			{
+			}
+		}
+
+		// Token: 0x0600004A RID: 74 RVA: 0x00008D04 File Offset: 0x00006F04
+		private static uint jEFEcPAlA(uint \u0020)
+		{
+			return (uint)"e8JVrYoQSfoVi3A3zXtIai".Length;
+		}
+
+		// Token: 0x0600004B RID: 75 RVA: 0x00008D10 File Offset: 0x00006F10
+		private static uint cNZU1RY4l(uint \u0020)
+		{
+			return 0U;
+		}
+
+		// Token: 0x0600004C RID: 76 RVA: 0x00008D14 File Offset: 0x00006F14
+		internal static void K1uT04vF6()
+		{
+		}
+
+		// Token: 0x0600004D RID: 77 RVA: 0x00008D18 File Offset: 0x00006F18
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private static void PmVnJRwnb(object \u0020, int \u0020)
+		{
+			int num = 315;
+			for (;;)
+			{
+				int num2 = num;
+				int num3;
+				byte[] array;
+				int num4;
+				byte[] array2;
+				int num5;
+				byte[] array3;
+				for (;;)
+				{
+					byte[] array4;
+					byte[] array5;
+					byte[] array6;
+					int num6;
+					switch (num2)
+					{
+					case 1:
+						num3 = 131 - 43;
+						num2 = 107;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 242;
+							continue;
+						}
+						continue;
+					case 2:
+						array[7] = (byte)num3;
+						num2 = 85;
+						continue;
+					case 3:
+						num4 = 41 + 0;
+						num2 = 277;
+						continue;
+					case 4:
+						array[5] = (byte)num3;
+						num2 = 107;
+						continue;
+					case 5:
+						array[26] = 71 + 106;
+						num2 = 199;
+						continue;
+					case 6:
+						array[1] = (byte)num3;
+						num2 = 239;
+						continue;
+					case 7:
+						array[2] = 165 - 44;
+						num2 = 275;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 320;
+							continue;
+						}
+						continue;
+					case 8:
+						array[19] = 76 + 69;
+						num2 = 348;
+						continue;
+					case 9:
+						num3 = 74 - 2;
+						num2 = 163;
+						continue;
+					case 10:
+						goto IL_150B;
+					case 11:
+						array[8] = (byte)num3;
+						num2 = 124;
+						continue;
+					case 12:
+						array2[1] = (byte)num4;
+						num2 = 75;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 356;
+							continue;
+						}
+						continue;
+					case 13:
+						array[22] = 140 + 16;
+						num2 = 214;
+						continue;
+					case 14:
+						array[23] = (byte)num3;
+						num2 = 57;
+						continue;
+					case 15:
+						array2[2] = (byte)num5;
+						num2 = 328;
+						continue;
+					case 16:
+						array2[14] = 102 + 24;
+						num2 = 146;
+						continue;
+					case 17:
+						goto IL_11EE;
+					case 18:
+						goto IL_1D10;
+					case 19:
+						num4 = 117 + 65;
+						num2 = 1;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 302;
+							continue;
+						}
+						continue;
+					case 20:
+						array[3] = 148 - 49;
+						num2 = 37;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 2;
+							continue;
+						}
+						continue;
+					case 21:
+						array3[9] = array4[4];
+						num2 = 346;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 167;
+							continue;
+						}
+						continue;
+					case 22:
+						array[9] = (byte)num3;
+						num2 = 51;
+						continue;
+					case 23:
+						array[17] = 96 + 18;
+						num2 = 323;
+						continue;
+					case 24:
+						array2[9] = 249 - 83;
+						num2 = 156;
+						continue;
+					case 25:
+						goto IL_2970;
+					case 26:
+						array[26] = (byte)num3;
+						num2 = 287;
+						continue;
+					case 27:
+						array[7] = (byte)num3;
+						num2 = 43;
+						continue;
+					case 28:
+						array[2] = 243 - 81;
+						num2 = 7;
+						continue;
+					case 29:
+						array2[8] = 103 + 92;
+						num2 = 150;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 176;
+							continue;
+						}
+						continue;
+					case 30:
+						array[14] = 72 + 37;
+						num2 = 8;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 9;
+							continue;
+						}
+						continue;
+					case 31:
+						array[21] = (byte)num3;
+						num2 = 195;
+						continue;
+					case 32:
+						goto IL_91E;
+					case 33:
+						num3 = 17 + 62;
+						num2 = 342;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 210;
+							continue;
+						}
+						continue;
+					case 34:
+						num5 = 7 + 116;
+						num2 = 340;
+						continue;
+					case 35:
+						array2[1] = 66 + 78;
+						num2 = 251;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 102;
+							continue;
+						}
+						continue;
+					case 36:
+						array[5] = 232 - 77;
+						num2 = 227;
+						continue;
+					case 37:
+						array[3] = 36 + 54;
+						num2 = 263;
+						continue;
+					case 38:
+						array[31] = (byte)num3;
+						num2 = 125;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 286;
+							continue;
+						}
+						continue;
+					case 39:
+						array[27] = (byte)num3;
+						num2 = 293;
+						continue;
+					case 40:
+						array[17] = 156 + 71;
+						num2 = 211;
+						continue;
+					case 41:
+						array[1] = 201 - 67;
+						num2 = 132;
+						continue;
+					case 42:
+						array[5] = (byte)num3;
+						num2 = 253;
+						continue;
+					case 43:
+						array[7] = 33 + 19;
+						num2 = 194;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 223;
+							continue;
+						}
+						continue;
+					case 44:
+						array[11] = (byte)num3;
+						num2 = 89;
+						continue;
+					case 45:
+						num3 = 208 - 69;
+						num2 = 36;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 140;
+							continue;
+						}
+						continue;
+					case 46:
+						goto IL_79A;
+					case 47:
+						num4 = 62 + 69;
+						num2 = 44;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 95;
+							continue;
+						}
+						continue;
+					case 48:
+						goto IL_30A6;
+					case 49:
+						array2[2] = (byte)num5;
+						num2 = 284;
+						continue;
+					case 50:
+						num3 = 154 - 51;
+						num2 = 282;
+						continue;
+					case 51:
+						num3 = 204 - 68;
+						num2 = 64;
+						continue;
+					case 52:
+						array[22] = 230 - 76;
+						num2 = 17;
+						continue;
+					case 53:
+						array2[11] = 36 - 10;
+						num2 = 322;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 256;
+							continue;
+						}
+						continue;
+					case 54:
+						array2[2] = 164 - 54;
+						num2 = 269;
+						continue;
+					case 55:
+						array[21] = (byte)num3;
+						num2 = 246;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 61;
+							continue;
+						}
+						continue;
+					case 56:
+						array2[10] = 212 - 70;
+						num2 = 125;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 62;
+							continue;
+						}
+						continue;
+					case 57:
+						array[23] = 199 - 66;
+						num2 = 270;
+						continue;
+					case 58:
+						goto IL_1B39;
+					case 59:
+						array[3] = 127 + 42;
+						num2 = 78;
+						continue;
+					case 60:
+						array[17] = 198 - 66;
+						num2 = 23;
+						continue;
+					case 61:
+						num3 = 118 + 68;
+						num2 = 300;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 330;
+							continue;
+						}
+						continue;
+					case 62:
+						array2[10] = (byte)num5;
+						num2 = 19;
+						continue;
+					case 63:
+						goto IL_2F5D;
+					case 64:
+						array[10] = (byte)num3;
+						num2 = 32;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 152;
+							continue;
+						}
+						continue;
+					case 65:
+						array2[15] = 67 - 38;
+						num2 = 113;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 174;
+							continue;
+						}
+						continue;
+					case 66:
+						array[30] = (byte)num3;
+						num2 = 63;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 29;
+							continue;
+						}
+						continue;
+					case 67:
+						array2[11] = 171 - 57;
+						num2 = 231;
+						continue;
+					case 68:
+						goto IL_2C7A;
+					case 69:
+						array[7] = (byte)num3;
+						num2 = 292;
+						continue;
+					case 70:
+						array[0] = 97 + 100;
+						num2 = 305;
+						continue;
+					case 71:
+						array[25] = 53 + 115;
+						num2 = 45;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 31;
+							continue;
+						}
+						continue;
+					case 72:
+						array[24] = 117 + 18;
+						num2 = 120;
+						continue;
+					case 73:
+						array2[4] = (byte)num5;
+						num2 = 355;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 329;
+							continue;
+						}
+						continue;
+					case 74:
+						array[13] = (byte)num3;
+						num2 = 153;
+						continue;
+					case 75:
+						array[28] = 149 - 49;
+						num2 = 50;
+						continue;
+					case 76:
+						num3 = 122 - 32;
+						num2 = 69;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 16;
+							continue;
+						}
+						continue;
+					case 77:
+						goto IL_257F;
+					case 78:
+						array[4] = 253 - 84;
+						num2 = 219;
+						continue;
+					case 79:
+						array2[7] = 22 + 123;
+						num2 = 212;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 8;
+							continue;
+						}
+						continue;
+					case 80:
+						array[19] = 158 - 52;
+						num2 = 8;
+						continue;
+					case 81:
+						num5 = 249 - 83;
+						num2 = 73;
+						continue;
+					case 82:
+						array[20] = (byte)num3;
+						num2 = 115;
+						continue;
+					case 83:
+						num3 = 33 + 48;
+						num2 = 353;
+						continue;
+					case 84:
+						num3 = 221 - 73;
+						num2 = 101;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 171;
+							continue;
+						}
+						continue;
+					case 85:
+						num3 = 70 + 98;
+						num2 = 27;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 22;
+							continue;
+						}
+						continue;
+					case 86:
+						array2[2] = 57 + 57;
+						num2 = 54;
+						continue;
+					case 87:
+						array[21] = 232 - 77;
+						num2 = 249;
+						continue;
+					case 88:
+						array[26] = 90 + 8;
+						num2 = 5;
+						continue;
+					case 89:
+						array[11] = 96 + 62;
+						num2 = 122;
+						continue;
+					case 90:
+						goto IL_C86;
+					case 91:
+						num5 = 39 + 33;
+						num2 = 109;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 41;
+							continue;
+						}
+						continue;
+					case 92:
+						array[5] = (byte)num3;
+						num2 = 319;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 29;
+							continue;
+						}
+						continue;
+					case 93:
+						array2[0] = 61 - 23;
+						num2 = 213;
+						continue;
+					case 94:
+						array2[11] = 24 + 82;
+						num2 = 67;
+						continue;
+					case 95:
+						array2[9] = (byte)num4;
+						num2 = 310;
+						continue;
+					case 96:
+						array[9] = 77 + 114;
+						num2 = 29;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 226;
+							continue;
+						}
+						continue;
+					case 97:
+						array[6] = 3 + 26;
+						num2 = 162;
+						continue;
+					case 98:
+						goto IL_2C6D;
+					case 99:
+						array[21] = 223 - 74;
+						num2 = 43;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 87;
+							continue;
+						}
+						continue;
+					case 100:
+						return;
+					case 101:
+						num3 = 238 - 79;
+						num2 = 106;
+						continue;
+					case 102:
+						goto IL_187E;
+					case 103:
+						array[4] = (byte)num3;
+						num2 = 61;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 111;
+							continue;
+						}
+						continue;
+					case 104:
+						num3 = 183 - 61;
+						num2 = 196;
+						continue;
+					case 105:
+						array2[8] = (byte)num5;
+						num2 = 244;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 216;
+							continue;
+						}
+						continue;
+					case 106:
+						array[10] = (byte)num3;
+						num2 = 285;
+						continue;
+					case 107:
+						array[5] = 155 - 64;
+						num2 = 299;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 122;
+							continue;
+						}
+						continue;
+					case 108:
+						goto IL_BBE;
+					case 109:
+						array2[3] = (byte)num5;
+						num2 = 137;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 233;
+							continue;
+						}
+						continue;
+					case 110:
+						array2[2] = (byte)num4;
+						num2 = 128;
+						continue;
+					case 111:
+						num3 = 152 + 31;
+						num2 = 327;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 236;
+							continue;
+						}
+						continue;
+					case 112:
+						num4 = 201 - 67;
+						num2 = 297;
+						continue;
+					case 113:
+						num3 = 156 - 52;
+						num2 = 44;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 11;
+							continue;
+						}
+						continue;
+					case 114:
+						array3[15] = array4[7];
+						num2 = 98;
+						continue;
+					case 115:
+						array[20] = 247 - 82;
+						num2 = 164;
+						continue;
+					case 116:
+						goto IL_2817;
+					case 117:
+						num3 = 220 - 73;
+						num2 = 18;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 9;
+							continue;
+						}
+						continue;
+					case 118:
+						array[15] = 193 - 64;
+						num2 = 334;
+						continue;
+					case 119:
+						goto IL_846;
+					case 120:
+						num3 = 116 + 29;
+						num2 = 168;
+						continue;
+					case 121:
+						array[22] = 64 + 39;
+						num2 = 191;
+						continue;
+					case 122:
+						num3 = 118 - 103;
+						num2 = 252;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 15;
+							continue;
+						}
+						continue;
+					case 123:
+						num3 = 224 + 7;
+						num2 = 183;
+						continue;
+					case 124:
+						array[8] = 69 + 77;
+						num2 = 303;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 252;
+							continue;
+						}
+						continue;
+					case 125:
+						array2[10] = 164 - 68;
+						num2 = 94;
+						continue;
+					case 126:
+						if (array4 == null)
+						{
+							num2 = 349;
+							continue;
+						}
+						goto IL_C86;
+					case 127:
+						array2[1] = (byte)num4;
+						num2 = 321;
+						continue;
+					case 128:
+						num5 = 50 - 9;
+						num2 = 15;
+						continue;
+					case 129:
+						array2[3] = 78 + 20;
+						num2 = 274;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 216;
+							continue;
+						}
+						continue;
+					case 130:
+						goto IL_1FF1;
+					case 131:
+						array[19] = (byte)num3;
+						num2 = 80;
+						continue;
+					case 132:
+						num3 = 163 - 54;
+						num2 = 6;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 4;
+							continue;
+						}
+						continue;
+					case 133:
+						num5 = 58 + 86;
+						num2 = 177;
+						continue;
+					case 134:
+						array[18] = (byte)num3;
+						num2 = 193;
+						continue;
+					case 135:
+					{
+						Stream stream = R61CSVGZUwXcWdfvYm.YgJFF3lbotYIbMNte4N();
+						num2 = 236;
+						continue;
+					}
+					case 136:
+						array[16] = 243 - 81;
+						num2 = 108;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 87;
+							continue;
+						}
+						continue;
+					case 137:
+						array[30] = 40 + 35;
+						num2 = 245;
+						continue;
+					case 138:
+						array[18] = (byte)num3;
+						num2 = 260;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 335;
+							continue;
+						}
+						continue;
+					case 139:
+						array2[13] = (byte)num5;
+						num2 = 14;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 16;
+							continue;
+						}
+						continue;
+					case 140:
+						array[25] = (byte)num3;
+						num2 = 141;
+						continue;
+					case 141:
+						array[25] = 152 - 50;
+						num2 = 235;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 109;
+							continue;
+						}
+						continue;
+					case 142:
+						array[12] = 125 - 88;
+						num2 = 117;
+						continue;
+					case 143:
+						num3 = 142 + 110;
+						num2 = 281;
+						continue;
+					case 144:
+						array[15] = (byte)num3;
+						num2 = 118;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 85;
+							continue;
+						}
+						continue;
+					case 145:
+						array[20] = (byte)num3;
+						num2 = 250;
+						continue;
+					case 146:
+						num4 = 223 - 74;
+						num2 = 205;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 17;
+							continue;
+						}
+						continue;
+					case 147:
+						num3 = 96 + 53;
+						num2 = 66;
+						continue;
+					case 148:
+						array[21] = 209 - 69;
+						num2 = 301;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 107;
+							continue;
+						}
+						continue;
+					case 149:
+						goto IL_1035;
+					case 150:
+						array2[14] = (byte)num4;
+						num2 = 133;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 167;
+							continue;
+						}
+						continue;
+					case 151:
+						array2[12] = 100 + 73;
+						num2 = 264;
+						continue;
+					case 152:
+						num3 = 114 + 107;
+						num2 = 161;
+						continue;
+					case 153:
+						array[13] = 73 - 26;
+						num2 = 140;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 187;
+							continue;
+						}
+						continue;
+					case 154:
+						array2[0] = 225 - 75;
+						num2 = 230;
+						continue;
+					case 155:
+						num3 = 239 - 79;
+						num2 = 39;
+						continue;
+					case 156:
+						array2[9] = 132 - 44;
+						num2 = 102;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 94;
+							continue;
+						}
+						continue;
+					case 157:
+						array2[13] = 222 - 74;
+						num2 = 296;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 326;
+							continue;
+						}
+						continue;
+					case 158:
+						array2[3] = (byte)num4;
+						num2 = 129;
+						continue;
+					case 159:
+						num3 = 138 + 97;
+						num2 = 22;
+						continue;
+					case 160:
+						array2[6] = 53 + 101;
+						num2 = 265;
+						continue;
+					case 161:
+						array[10] = (byte)num3;
+						num2 = 101;
+						continue;
+					case 162:
+						array[6] = 166 + 41;
+						num2 = 126;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 202;
+							continue;
+						}
+						continue;
+					case 163:
+						array[14] = (byte)num3;
+						num2 = 259;
+						continue;
+					case 164:
+						num3 = 69 + 54;
+						num2 = 351;
+						continue;
+					case 165:
+						array3[7] = array4[3];
+						num2 = 11;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 21;
+							continue;
+						}
+						continue;
+					case 166:
+						array[0] = 178 - 59;
+						num2 = 70;
+						continue;
+					case 167:
+						array2[15] = 136 - 45;
+						num2 = 26;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 77;
+							continue;
+						}
+						continue;
+					case 168:
+						array[24] = (byte)num3;
+						num2 = 204;
+						continue;
+					case 169:
+						num3 = 131 - 43;
+						num2 = 339;
+						continue;
+					case 170:
+						num5 = 25 + 56;
+						num2 = 268;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 129;
+							continue;
+						}
+						continue;
+					case 171:
+						array[14] = (byte)num3;
+						num2 = 311;
+						continue;
+					case 172:
+						array[19] = (byte)num3;
+						num2 = 324;
+						continue;
+					case 173:
+						array[27] = 212 - 70;
+						num2 = 155;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 71;
+							continue;
+						}
+						continue;
+					case 174:
+						goto IL_15E5;
+					case 175:
+						array2[5] = (byte)num4;
+						num2 = 3;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 0;
+							continue;
+						}
+						continue;
+					case 176:
+						array2[9] = 113 + 113;
+						num2 = 24;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 11;
+							continue;
+						}
+						continue;
+					case 177:
+						array2[8] = (byte)num5;
+						num2 = 312;
+						continue;
+					case 178:
+						num3 = 239 - 79;
+						num2 = 254;
+						continue;
+					case 179:
+						array2[12] = (byte)num4;
+						num2 = 149;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 115;
+							continue;
+						}
+						continue;
+					case 180:
+						array[20] = 174 - 123;
+						num2 = 148;
+						continue;
+					case 181:
+						num3 = 70 + 122;
+						num2 = 26;
+						continue;
+					case 182:
+						goto IL_B59;
+					case 183:
+						array[8] = (byte)num3;
+						num2 = 96;
+						continue;
+					case 184:
+						num3 = 89 + 106;
+						num2 = 131;
+						continue;
+					case 185:
+						array[27] = (byte)num3;
+						num2 = 48;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 75;
+							continue;
+						}
+						continue;
+					case 186:
+						array[31] = (byte)num3;
+						num2 = 289;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 291;
+							continue;
+						}
+						continue;
+					case 187:
+						num3 = 83 + 79;
+						num2 = 198;
+						continue;
+					case 188:
+						num3 = 123 + 50;
+						num2 = 341;
+						continue;
+					case 189:
+						array2[0] = (byte)num5;
+						num2 = 153;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 154;
+							continue;
+						}
+						continue;
+					case 190:
+						array[6] = 16 + 59;
+						num2 = 97;
+						continue;
+					case 191:
+						num3 = 167 - 55;
+						num2 = 200;
+						continue;
+					case 192:
+						array[22] = (byte)num3;
+						num2 = 121;
+						continue;
+					case 193:
+						array[18] = 41 - 13;
+						num2 = 184;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 41;
+							continue;
+						}
+						continue;
+					case 194:
+						array5 = array;
+						num2 = 68;
+						continue;
+					case 195:
+						num3 = 82 + 14;
+						num2 = 192;
+						continue;
+					case 196:
+						array[12] = (byte)num3;
+						num2 = 247;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 177;
+							continue;
+						}
+						continue;
+					case 197:
+						goto IL_2093;
+					case 198:
+						array[14] = (byte)num3;
+						num2 = 84;
+						continue;
+					case 199:
+						array[26] = 166 - 55;
+						num2 = 276;
+						continue;
+					case 200:
+						array[22] = (byte)num3;
+						num2 = 36;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 52;
+							continue;
+						}
+						continue;
+					case 201:
+						array3[13] = array4[6];
+						num2 = 114;
+						continue;
+					case 202:
+						num3 = 98 + 83;
+						num2 = 2;
+						continue;
+					case 203:
+						num3 = 218 - 72;
+						num2 = 103;
+						continue;
+					case 204:
+						num3 = 63 - 48;
+						num2 = 271;
+						continue;
+					case 205:
+						array2[14] = (byte)num4;
+						num2 = 352;
+						continue;
+					case 206:
+						num5 = 76 + 70;
+						num2 = 105;
+						continue;
+					case 207:
+						array[26] = (byte)num3;
+						num2 = 178;
+						continue;
+					case 208:
+						array[16] = 97 + 23;
+						num2 = 136;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 121;
+							continue;
+						}
+						continue;
+					case 209:
+						array[8] = (byte)num3;
+						num2 = 123;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 29;
+							continue;
+						}
+						continue;
+					case 210:
+						array[15] = 235 - 78;
+						num2 = 338;
+						continue;
+					case 211:
+						goto IL_1DFC;
+					case 212:
+						array2[7] = 190 + 12;
+						num2 = 113;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 133;
+							continue;
+						}
+						continue;
+					case 213:
+						num4 = 78 + 111;
+						num2 = 12;
+						continue;
+					case 214:
+						array[23] = 246 - 82;
+						num2 = 283;
+						continue;
+					case 215:
+						array[31] = 52 + 115;
+						num2 = 194;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 72;
+							continue;
+						}
+						continue;
+					case 216:
+						goto IL_23E3;
+					case 217:
+						array[12] = 225 - 75;
+						num2 = 24;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 104;
+							continue;
+						}
+						continue;
+					case 218:
+						num3 = 57 + 69;
+						num2 = 14;
+						continue;
+					case 219:
+						array[4] = 18 + 109;
+						num2 = 169;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 82;
+							continue;
+						}
+						continue;
+					case 220:
+						num3 = 47 + 64;
+						num2 = 74;
+						continue;
+					case 221:
+						num5 = 116 - 62;
+						num2 = 333;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 209;
+							continue;
+						}
+						continue;
+					case 222:
+						num3 = 137 - 45;
+						num2 = 134;
+						continue;
+					case 223:
+						array[7] = 4 + 71;
+						num2 = 76;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 3;
+							continue;
+						}
+						continue;
+					case 224:
+						goto IL_2C6D;
+					case 225:
+						array[1] = 207 - 69;
+						num2 = 143;
+						continue;
+					case 226:
+						array[9] = 135 - 45;
+						num2 = 159;
+						continue;
+					case 227:
+						num3 = 119 + 87;
+						num2 = 42;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 21;
+							continue;
+						}
+						continue;
+					case 228:
+					{
+						object obj = R61CSVGZUwXcWdfvYm.E4Cl6Al1Bt8ujvD5qpm();
+						R61CSVGZUwXcWdfvYm.hyEZqfl0kppHAsSygZb(obj, CipherMode.CBC);
+						ICryptoTransform transform = R61CSVGZUwXcWdfvYm.mptHGPlsLhidRmV7OIK(obj, array5, array3);
+						num2 = 135;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 8;
+							continue;
+						}
+						continue;
+					}
+					case 229:
+						array3[3] = array4[1];
+						num2 = 357;
+						continue;
+					case 230:
+						num4 = 196 - 65;
+						num2 = 266;
+						continue;
+					case 231:
+						num4 = 198 - 66;
+						num2 = 72;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 238;
+							continue;
+						}
+						continue;
+					case 232:
+						array[29] = (byte)num3;
+						num2 = 1;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 0;
+							continue;
+						}
+						continue;
+					case 233:
+						num4 = 129 - 43;
+						num2 = 120;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 158;
+							continue;
+						}
+						continue;
+					case 234:
+						num3 = 15 + 7;
+						num2 = 278;
+						continue;
+					case 235:
+						array[25] = 98 + 28;
+						num2 = 181;
+						continue;
+					case 236:
+					{
+						Stream stream;
+						ICryptoTransform transform;
+						CryptoStream cryptoStream = new CryptoStream(stream, transform, CryptoStreamMode.Write);
+						R61CSVGZUwXcWdfvYm.I536Kml6SHj3hNpVHdn(cryptoStream, array6, 0, array6.Length);
+						R61CSVGZUwXcWdfvYm.VyX9KOlxOFCnn2l66xh(cryptoStream);
+						R61CSVGZUwXcWdfvYm.kqQKeSHYC2 = R61CSVGZUwXcWdfvYm.WHB4n7l2SKR2okqdLtF(stream);
+						R61CSVGZUwXcWdfvYm.eTTmDil4k3MRgVgdpPZ(stream);
+						R61CSVGZUwXcWdfvYm.eTTmDil4k3MRgVgdpPZ(cryptoStream);
+						num2 = 317;
+						continue;
+					}
+					case 237:
+						array2[3] = (byte)num5;
+						num2 = 170;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 168;
+							continue;
+						}
+						continue;
+					case 238:
+						array2[11] = (byte)num4;
+						num2 = 53;
+						continue;
+					case 239:
+						array[1] = 117 + 23;
+						num2 = 182;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 225;
+							continue;
+						}
+						continue;
+					case 240:
+						array[19] = (byte)num3;
+						num2 = 6;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 243;
+							continue;
+						}
+						continue;
+					case 241:
+						goto IL_2A7C;
+					case 242:
+						array[29] = (byte)num3;
+						num2 = 42;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 61;
+							continue;
+						}
+						continue;
+					case 243:
+						num3 = 130 - 110;
+						num2 = 172;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 26;
+							continue;
+						}
+						continue;
+					case 244:
+						num4 = 157 - 52;
+						num2 = 343;
+						continue;
+					case 245:
+						num3 = 209 - 69;
+						num2 = 273;
+						continue;
+					case 246:
+						array[21] = 16 + 36;
+						num2 = 99;
+						continue;
+					case 247:
+						array[12] = 170 - 56;
+						num2 = 65;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 142;
+							continue;
+						}
+						continue;
+					case 248:
+						num3 = 104 + 44;
+						num2 = 144;
+						continue;
+					case 249:
+						num3 = 77 + 68;
+						num2 = 31;
+						continue;
+					case 250:
+						num3 = 63 + 66;
+						num2 = 82;
+						continue;
+					case 251:
+						num4 = 116 - 17;
+						num2 = 12;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 58;
+							continue;
+						}
+						continue;
+					case 252:
+						array[11] = (byte)num3;
+						num2 = 217;
+						continue;
+					case 253:
+						array[5] = 13 + 75;
+						num2 = 267;
+						continue;
+					case 254:
+						array[27] = (byte)num3;
+						num2 = 33;
+						continue;
+					case 255:
+						array2[12] = (byte)num4;
+						num2 = 151;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 43;
+							continue;
+						}
+						continue;
+					case 256:
+						array[24] = (byte)num3;
+						num2 = 72;
+						continue;
+					case 257:
+						array[3] = (byte)num3;
+						num2 = 30;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 59;
+							continue;
+						}
+						continue;
+					case 258:
+						array[15] = (byte)num3;
+						num2 = 210;
+						continue;
+					case 259:
+						array[15] = 224 - 74;
+						num2 = 127;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 248;
+							continue;
+						}
+						continue;
+					case 260:
+						num3 = 26 + 8;
+						num2 = 256;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 147;
+							continue;
+						}
+						continue;
+					case 261:
+						goto IL_32C4;
+					case 262:
+						num3 = 114 - 61;
+						num2 = 316;
+						continue;
+					case 263:
+						num3 = 21 + 34;
+						num2 = 257;
+						continue;
+					case 264:
+						num4 = 174 - 58;
+						num2 = 179;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 54;
+							continue;
+						}
+						continue;
+					case 265:
+						array2[6] = 73 + 82;
+						num2 = 221;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 94;
+							continue;
+						}
+						continue;
+					case 266:
+						array2[0] = (byte)num4;
+						num2 = 93;
+						continue;
+					case 267:
+						num3 = 15 + 32;
+						num2 = 92;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 21;
+							continue;
+						}
+						continue;
+					case 268:
+						array2[3] = (byte)num5;
+						num2 = 91;
+						continue;
+					case 269:
+						num4 = 59 + 60;
+						num2 = 110;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 103;
+							continue;
+						}
+						continue;
+					case 270:
+						num3 = 207 - 100;
+						num2 = 347;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 59;
+							continue;
+						}
+						continue;
+					case 271:
+						array[24] = (byte)num3;
+						num2 = 234;
+						continue;
+					case 272:
+						goto IL_2817;
+					case 273:
+						array[30] = (byte)num3;
+						num2 = 304;
+						continue;
+					case 274:
+						goto IL_3250;
+					case 275:
+						array2[12] = 177 - 59;
+						num2 = 325;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 72;
+							continue;
+						}
+						continue;
+					case 276:
+						num3 = 96 - 72;
+						num2 = 207;
+						continue;
+					case 277:
+						array2[5] = (byte)num4;
+						num2 = 99;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 318;
+							continue;
+						}
+						continue;
+					case 278:
+						array[25] = (byte)num3;
+						num2 = 71;
+						continue;
+					case 279:
+						array[22] = (byte)num3;
+						num2 = 13;
+						continue;
+					case 280:
+						num6++;
+						num2 = 331;
+						continue;
+					case 281:
+						array[1] = (byte)num3;
+						num2 = 79;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 307;
+							continue;
+						}
+						continue;
+					case 282:
+						array[28] = (byte)num3;
+						num2 = 141;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 298;
+							continue;
+						}
+						continue;
+					case 283:
+						num3 = 102 + 106;
+						num2 = 308;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 88;
+							continue;
+						}
+						continue;
+					case 284:
+						array2[2] = 53 + 75;
+						num2 = 86;
+						continue;
+					case 285:
+						array[10] = 105 + 113;
+						num2 = 113;
+						continue;
+					case 286:
+						num3 = 175 - 58;
+						num2 = 186;
+						continue;
+					case 287:
+						num3 = 33 + 38;
+						num2 = 132;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 300;
+							continue;
+						}
+						continue;
+					case 288:
+						num5 = 33 + 103;
+						num2 = 49;
+						continue;
+					case 289:
+						num5 = 116 + 86;
+						num2 = 139;
+						continue;
+					case 290:
+						array[23] = 64 + 76;
+						num2 = 218;
+						continue;
+					case 291:
+						array[31] = 44 + 86;
+						num2 = 62;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 215;
+							continue;
+						}
+						continue;
+					case 292:
+						num3 = 114 + 45;
+						num2 = 11;
+						continue;
+					case 293:
+						num3 = 73 + 75;
+						num2 = 38;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 185;
+							continue;
+						}
+						continue;
+					case 294:
+						R61CSVGZUwXcWdfvYm.KqEdy6lHoXgdyTc4vjL(array3);
+						num2 = 344;
+						continue;
+					case 295:
+						num5 = 112 + 9;
+						num2 = 189;
+						continue;
+					case 296:
+						array2[7] = 171 - 57;
+						num2 = 79;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 31;
+							continue;
+						}
+						continue;
+					case 297:
+						array2[15] = (byte)num4;
+						num2 = 65;
+						continue;
+					case 298:
+						num3 = 172 - 71;
+						num2 = 332;
+						continue;
+					case 299:
+						goto IL_9F2;
+					case 300:
+						array[26] = (byte)num3;
+						num2 = 88;
+						continue;
+					case 301:
+						num3 = 95 + 111;
+						num2 = 55;
+						continue;
+					case 302:
+						array2[10] = (byte)num4;
+						num2 = 56;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 20;
+							continue;
+						}
+						continue;
+					case 303:
+						num3 = 30 + 63;
+						num2 = 175;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 209;
+							continue;
+						}
+						continue;
+					case 304:
+						array[30] = 1 + 4;
+						num2 = 147;
+						continue;
+					case 305:
+						num3 = 107 + 38;
+						num2 = 48;
+						continue;
+					case 306:
+						num4 = 168 - 56;
+						num2 = 44;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 337;
+							continue;
+						}
+						continue;
+					case 307:
+						array[2] = 97 + 24;
+						num2 = 83;
+						continue;
+					case 308:
+						array[23] = (byte)num3;
+						num2 = 202;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 290;
+							continue;
+						}
+						continue;
+					case 309:
+						array[24] = 179 - 59;
+						num2 = 165;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 260;
+							continue;
+						}
+						continue;
+					case 310:
+						goto IL_77D;
+					case 311:
+						array[14] = 104 + 10;
+						num2 = 30;
+						continue;
+					case 312:
+						array2[8] = 68 + 24;
+						num2 = 206;
+						continue;
+					case 313:
+						array2[5] = 168 - 56;
+						num2 = 197;
+						continue;
+					case 314:
+						array = new byte[32];
+						num2 = 166;
+						continue;
+					case 315:
+					{
+						R61CSVGZUwXcWdfvYm.f1fZSeaHsIW0CLsDrx8 f1fZSeaHsIW0CLsDrx = new R61CSVGZUwXcWdfvYm.f1fZSeaHsIW0CLsDrx8(\u0020);
+						R61CSVGZUwXcWdfvYm.RuV2F2lXkB6E4DGqfxR(R61CSVGZUwXcWdfvYm.QKEdyPlufU0YJ3K0o7b(f1fZSeaHsIW0CLsDrx), 0L);
+						array6 = R61CSVGZUwXcWdfvYm.MBBrallq80KtACir0dQ(f1fZSeaHsIW0CLsDrx, (int)R61CSVGZUwXcWdfvYm.aDLp5blttZAXcCljY5u(R61CSVGZUwXcWdfvYm.QKEdyPlufU0YJ3K0o7b(f1fZSeaHsIW0CLsDrx)));
+						R61CSVGZUwXcWdfvYm.H0iqOSlrRwvtt2aEsIB(f1fZSeaHsIW0CLsDrx);
+						num2 = 314;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 310;
+							continue;
+						}
+						continue;
+					}
+					case 316:
+						array[29] = (byte)num3;
+						num2 = 137;
+						continue;
+					case 317:
+						array6 = R61CSVGZUwXcWdfvYm.kqQKeSHYC2;
+						num2 = 109;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 130;
+							continue;
+						}
+						continue;
+					case 318:
+						num5 = 118 - 81;
+						num2 = 151;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 216;
+							continue;
+						}
+						continue;
+					case 319:
+						goto IL_1299;
+					case 320:
+						array[3] = 162 - 54;
+						num2 = 20;
+						continue;
+					case 321:
+						array2[1] = 157 - 52;
+						num2 = 35;
+						continue;
+					case 322:
+						num4 = 184 - 61;
+						num2 = 255;
+						continue;
+					case 323:
+						array[17] = 203 - 67;
+						num2 = 40;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 29;
+							continue;
+						}
+						continue;
+					case 324:
+						goto IL_2645;
+					case 325:
+						array2[12] = 117 - 34;
+						num2 = 157;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 14;
+							continue;
+						}
+						continue;
+					case 326:
+						array2[13] = 80 + 41;
+						num2 = 289;
+						continue;
+					case 327:
+						array[4] = (byte)num3;
+						num2 = 36;
+						continue;
+					case 328:
+						num5 = 241 - 80;
+						num2 = 237;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 162;
+							continue;
+						}
+						continue;
+					case 329:
+						if (\u0020 == -1)
+						{
+							num2 = 228;
+							continue;
+						}
+						goto IL_1FF1;
+					case 330:
+						array[29] = (byte)num3;
+						num2 = 262;
+						continue;
+					case 331:
+						goto IL_91E;
+					case 332:
+						array[28] = (byte)num3;
+						num2 = 259;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 345;
+							continue;
+						}
+						continue;
+					case 333:
+						array2[6] = (byte)num5;
+						num2 = 296;
+						continue;
+					case 334:
+						num3 = 190 - 63;
+						num2 = 258;
+						continue;
+					case 335:
+						array[18] = 93 + 89;
+						num2 = 62;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 182;
+							continue;
+						}
+						continue;
+					case 336:
+						array2[4] = 31 + 121;
+						num2 = 81;
+						continue;
+					case 337:
+						goto IL_1C0D;
+					case 338:
+						num3 = 57 + 72;
+						num2 = 25;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 22;
+							continue;
+						}
+						continue;
+					case 339:
+						array[4] = (byte)num3;
+						num2 = 175;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() == null)
+						{
+							num2 = 203;
+							continue;
+						}
+						continue;
+					case 340:
+						array2[5] = (byte)num5;
+						num2 = 313;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 139;
+							continue;
+						}
+						continue;
+					case 341:
+						array[20] = (byte)num3;
+						num2 = 180;
+						continue;
+					case 342:
+						array[27] = (byte)num3;
+						num2 = 0;
+						if (R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 0;
+							continue;
+						}
+						continue;
+					case 343:
+						array2[8] = (byte)num4;
+						num2 = 306;
+						if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+						{
+							num2 = 75;
+							continue;
+						}
+						continue;
+					case 344:
+						array4 = R61CSVGZUwXcWdfvYm.jaHBygljrnEstCjooUW(R61CSVGZUwXcWdfvYm.ELpSMOlOtUa9OfdWJtl(R61CSVGZUwXcWdfvYm.nWYKvQALW7));
+						num2 = 126;
+						continue;
+					case 345:
+						num3 = 92 + 51;
+						num2 = 232;
+						continue;
+					case 346:
+						array3[11] = array4[5];
+						num2 = 201;
+						continue;
+					case 347:
+						array[23] = (byte)num3;
+						num2 = 309;
+						continue;
+					case 348:
+						num3 = 137 - 45;
+						num2 = 240;
+						continue;
+					case 349:
+						goto IL_2C6D;
+					case 350:
+						array2[12] = (byte)num5;
+						num2 = 275;
+						continue;
+					case 351:
+						array[20] = (byte)num3;
+						num2 = 188;
+						continue;
+					case 352:
+						num4 = 187 - 97;
+						num2 = 150;
+						if (R61CSVGZUwXcWdfvYm.KCLFPZlCNRRf7xUL0hv() != null)
+						{
+							num2 = 120;
+							continue;
+						}
+						continue;
+					case 353:
+						array[2] = (byte)num3;
+						num2 = 28;
+						continue;
+					case 354:
+						array[6] = 79 + 100;
+						num2 = 190;
+						continue;
+					case 355:
+						array2[4] = 171 - 121;
+						num2 = 34;
+						continue;
+					case 356:
+						num4 = 231 - 77;
+						num2 = 127;
+						continue;
+					case 357:
+						array3[5] = array4[2];
+						num2 = 165;
+						continue;
+					case 358:
+						array[18] = (byte)num3;
+						num2 = 222;
+						continue;
+					}
+					goto Block_1;
+					IL_91E:
+					if (num6 >= array3.Length)
+					{
+						num2 = 329;
+						continue;
+					}
+					goto IL_2A7C;
+					IL_C86:
+					if (array4.Length == 0)
+					{
+						num2 = 224;
+						continue;
+					}
+					IL_150B:
+					array3[1] = array4[0];
+					num2 = 229;
+					if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+					{
+						num2 = 34;
+						continue;
+					}
+					continue;
+					IL_1FF1:
+					if (!R61CSVGZUwXcWdfvYm.hRGxkvlvUDIYoK8vci8(R61CSVGZUwXcWdfvYm.MQfkbWlVq6IUo6lmhpp(R61CSVGZUwXcWdfvYm.nWYKvQALW7), null))
+					{
+						num2 = 116;
+						continue;
+					}
+					goto IL_32C4;
+					IL_2817:
+					new R61CSVGZUwXcWdfvYm().RHWW8Pknm(array5, array3, array6);
+					num2 = 100;
+					if (!R61CSVGZUwXcWdfvYm.XDZJaUlyZAqCh2OT8FM())
+					{
+						num2 = 7;
+						continue;
+					}
+					continue;
+					IL_2A7C:
+					array5[num6] ^= array3[num6];
+					num2 = 280;
+					continue;
+					IL_2C6D:
+					num6 = 0;
+					num2 = 32;
+					continue;
+					IL_32C4:
+					R61CSVGZUwXcWdfvYm.e9EKPmMuZ5 = 80;
+					num2 = 272;
+				}
+				IL_77D:
+				num5 = 253 - 84;
+				num = 62;
+				continue;
+				IL_79A:
+				array[0] = 178 - 103;
+				num = 41;
+				continue;
+				IL_846:
+				array[27] = (byte)num3;
+				num = 173;
+				continue;
+				IL_9F2:
+				array[6] = 78 + 33;
+				num = 354;
+				continue;
+				IL_B59:
+				num3 = 234 - 78;
+				num = 358;
+				continue;
+				IL_BBE:
+				array[16] = 89 - 87;
+				num = 60;
+				continue;
+				IL_1035:
+				num5 = 89 + 35;
+				num = 350;
+				continue;
+				IL_11EE:
+				num3 = 188 - 62;
+				num = 279;
+				continue;
+				IL_1299:
+				num3 = 212 - 70;
+				num = 4;
+				continue;
+				IL_15E5:
+				array3 = array2;
+				num = 294;
+				continue;
+				IL_187E:
+				array2[9] = 7 + 93;
+				num = 47;
+				continue;
+				IL_1B39:
+				array2[1] = (byte)num4;
+				num = 288;
+				continue;
+				IL_1C0D:
+				array2[8] = (byte)num4;
+				num = 29;
+				continue;
+				IL_1D10:
+				array[13] = (byte)num3;
+				num = 220;
+				continue;
+				IL_1DFC:
+				num3 = 147 - 49;
+				num = 138;
+				continue;
+				IL_2093:
+				num4 = 218 - 72;
+				num = 175;
+				continue;
+				IL_23E3:
+				array2[5] = (byte)num5;
+				num = 160;
+				continue;
+				IL_257F:
+				array2[15] = 101 + 22;
+				num = 112;
+				continue;
+				IL_2645:
+				num3 = 145 - 48;
+				num = 145;
+				continue;
+				IL_2970:
+				array[15] = (byte)num3;
+				num = 208;
+				continue;
+				IL_2C7A:
+				array2 = new byte[16];
+				num = 295;
+				continue;
+				IL_2F07:
+				num3 = 93 + 96;
+				num = 119;
+				continue;
+				Block_1:
+				goto IL_2F07;
+				IL_2F5D:
+				num3 = 118 + 82;
+				num = 38;
+				continue;
+				IL_30A6:
+				array[0] = (byte)num3;
+				num = 46;
+				continue;
+				IL_3250:
+				array2[3] = 163 + 67;
+				num = 336;
+			}
+		}
+
+		// Token: 0x0600004E RID: 78 RVA: 0x0000BFFC File Offset: 0x0000A1FC
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static string GBbLQUx2W(int \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.kqQKeSHYC2.Length == 0)
+			{
+				R61CSVGZUwXcWdfvYm.rMdKF9lSwn = new List<string>();
+				R61CSVGZUwXcWdfvYm.TdcKGUQvCB = new List<int>();
+				R61CSVGZUwXcWdfvYm.PmVnJRwnb(R61CSVGZUwXcWdfvYm.nWYKvQALW7.GetManifestResourceStream("PMeUOLKWlGdLWYwZcU.GAbrPnachS8kFYyCrH"), \u0020);
+			}
+			if (R61CSVGZUwXcWdfvYm.e9EKPmMuZ5 < 75)
+			{
+				MethodBase method = new StackFrame(1).GetMethod();
+				if (R61CSVGZUwXcWdfvYm.nWYKvQALW7 != method.DeclaringType.Assembly)
+				{
+					bool flag = false;
+					string name = method.DeclaringType.Assembly.GetName().Name;
+					foreach (AssemblyName assemblyName in R61CSVGZUwXcWdfvYm.nWYKvQALW7.GetReferencedAssemblies())
+					{
+						if (name == assemblyName.Name)
+						{
+							flag = true;
+							break;
+						}
+					}
+					if (!flag)
+					{
+						throw new Exception();
+					}
+				}
+				R61CSVGZUwXcWdfvYm.e9EKPmMuZ5++;
+			}
+			object obj = R61CSVGZUwXcWdfvYm.orkKITwVLf;
+			lock (obj)
+			{
+				int num = BitConverter.ToInt32(R61CSVGZUwXcWdfvYm.kqQKeSHYC2, \u0020);
+				if (num < R61CSVGZUwXcWdfvYm.TdcKGUQvCB.Count && R61CSVGZUwXcWdfvYm.TdcKGUQvCB[num] == \u0020)
+				{
+					return R61CSVGZUwXcWdfvYm.rMdKF9lSwn[num];
+				}
+				try
+				{
+					u5FNC4aA9D3igoGpH78.vBDwonQ4GD();
+					byte[] array = new byte[num];
+					Array.Copy(R61CSVGZUwXcWdfvYm.kqQKeSHYC2, \u0020 + 4, array, 0, num);
+					string @string = Encoding.Unicode.GetString(array, 0, array.Length);
+					R61CSVGZUwXcWdfvYm.rMdKF9lSwn.Add(@string);
+					R61CSVGZUwXcWdfvYm.TdcKGUQvCB.Add(\u0020);
+					Array.Copy(BitConverter.GetBytes(R61CSVGZUwXcWdfvYm.rMdKF9lSwn.Count - 1), 0, R61CSVGZUwXcWdfvYm.kqQKeSHYC2, \u0020, 4);
+					return @string;
+				}
+				catch
+				{
+				}
+			}
+			return "";
+		}
+
+		// Token: 0x0600004F RID: 79 RVA: 0x0000C1E4 File Offset: 0x0000A3E4
+		internal static string nbsZYJldk(object \u0020)
+		{
+			"9xKqMJgPu3s58Wb8LywX05".Trim();
+			byte[] array = Convert.FromBase64String(\u0020);
+			return Encoding.Unicode.GetString(array, 0, array.Length);
+		}
+
+		// Token: 0x06000050 RID: 80 RVA: 0x0000C214 File Offset: 0x0000A414
+		private static int XxhmfhRdA()
+		{
+			return 5;
+		}
+
+		// Token: 0x06000051 RID: 81 RVA: 0x0000C218 File Offset: 0x0000A418
+		private static void i6rzX9VaT()
+		{
+			try
+			{
+				RSACryptoServiceProvider.UseMachineKeyStore = true;
+			}
+			catch
+			{
+			}
+		}
+
+		// Token: 0x06000052 RID: 82 RVA: 0x0000C248 File Offset: 0x0000A448
+		private static Delegate yOLKda2Jqp(IntPtr \u0020, Type \u0020)
+		{
+			return (Delegate)Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(16777246)).GetMethod("GetDelegateForFunctionPointer", new Type[]
+			{
+				Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(16777248)),
+				Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(16777285))
+			}).Invoke(null, new object[]
+			{
+				\u0020,
+				\u0020
+			});
+		}
+
+		// Token: 0x06000053 RID: 83 RVA: 0x0000C2B8 File Offset: 0x0000A4B8
+		internal static object RWEKK6uxHU(object \u0020)
+		{
+			try
+			{
+				if (File.Exists(((Assembly)\u0020).Location))
+				{
+					return ((Assembly)\u0020).Location;
+				}
+			}
+			catch
+			{
+			}
+			try
+			{
+				if (File.Exists(((Assembly)\u0020).GetName().CodeBase.ToString().Replace("file:///", "")))
+				{
+					return ((Assembly)\u0020).GetName().CodeBase.ToString().Replace("file:///", "");
+				}
+			}
+			catch
+			{
+			}
+			try
+			{
+				if (File.Exists(\u0020.GetType().GetProperty("Location").GetValue(\u0020, new object[0]).ToString()))
+				{
+					return \u0020.GetType().GetProperty("Location").GetValue(\u0020, new object[0]).ToString();
+				}
+			}
+			catch
+			{
+			}
+			return "";
+		}
+
+		// Token: 0x06000054 RID: 84
+		[DllImport("kernel32", EntryPoint = "LoadLibrary")]
+		public static extern IntPtr jsVKahicSy(string \u0020);
+
+		// Token: 0x06000055 RID: 85
+		[DllImport("kernel32", CharSet = CharSet.Ansi, EntryPoint = "GetProcAddress")]
+		public static extern IntPtr uYLKlr4H0S(IntPtr \u0020, string \u0020);
+
+		// Token: 0x06000056 RID: 86 RVA: 0x0000C3E8 File Offset: 0x0000A5E8
+		private static IntPtr jnvK7WCs8U(IntPtr \u0020, object \u0020, uint \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.m6XKnvFXo2 == null)
+			{
+				R61CSVGZUwXcWdfvYm.m6XKnvFXo2 = (R61CSVGZUwXcWdfvYm.lXXyw0abeHX6ifapne8)Marshal.GetDelegateForFunctionPointer(R61CSVGZUwXcWdfvYm.uYLKlr4H0S(R61CSVGZUwXcWdfvYm.BrtYkO4if(), "Find ".Trim() + "ResourceA"), Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554453)));
+			}
+			return R61CSVGZUwXcWdfvYm.m6XKnvFXo2(\u0020, \u0020, \u0020);
+		}
+
+		// Token: 0x06000057 RID: 87 RVA: 0x0000C448 File Offset: 0x0000A648
+		private static IntPtr rgyKw4X4Rc(IntPtr \u0020, uint \u0020, uint \u0020, uint \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.kcOKLVl1e8 == null)
+			{
+				R61CSVGZUwXcWdfvYm.kcOKLVl1e8 = (R61CSVGZUwXcWdfvYm.ugcRtoa6sNxKu8xAvvu)Marshal.GetDelegateForFunctionPointer(R61CSVGZUwXcWdfvYm.uYLKlr4H0S(R61CSVGZUwXcWdfvYm.BrtYkO4if(), "Virtual ".Trim() + "Alloc"), Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554454)));
+			}
+			return R61CSVGZUwXcWdfvYm.kcOKLVl1e8(\u0020, \u0020, \u0020, \u0020);
+		}
+
+		// Token: 0x06000058 RID: 88 RVA: 0x0000C4AC File Offset: 0x0000A6AC
+		private static int Bw0KypVhgp(IntPtr \u0020, IntPtr \u0020, [In] [Out] byte[] \u0020, uint \u0020, out IntPtr \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.AWlKZxw5JR == null)
+			{
+				R61CSVGZUwXcWdfvYm.AWlKZxw5JR = (R61CSVGZUwXcWdfvYm.HHSjj7axIqEaHQQlVBG)Marshal.GetDelegateForFunctionPointer(R61CSVGZUwXcWdfvYm.uYLKlr4H0S(R61CSVGZUwXcWdfvYm.BrtYkO4if(), "Write ".Trim() + "Process ".Trim() + "Memory"), Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554455)));
+			}
+			return R61CSVGZUwXcWdfvYm.AWlKZxw5JR(\u0020, \u0020, \u0020, \u0020, out \u0020);
+		}
+
+		// Token: 0x06000059 RID: 89 RVA: 0x0000C51C File Offset: 0x0000A71C
+		private static int CmVKC1yC1K(IntPtr \u0020, int \u0020, int \u0020, ref int \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.yQoKmtiOaH == null)
+			{
+				R61CSVGZUwXcWdfvYm.yQoKmtiOaH = (R61CSVGZUwXcWdfvYm.fwdNXCa2ZiC4759xv4t)Marshal.GetDelegateForFunctionPointer(R61CSVGZUwXcWdfvYm.uYLKlr4H0S(R61CSVGZUwXcWdfvYm.BrtYkO4if(), "Virtual ".Trim() + "Protect"), Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554456)));
+			}
+			return R61CSVGZUwXcWdfvYm.yQoKmtiOaH(\u0020, \u0020, \u0020, ref \u0020);
+		}
+
+		// Token: 0x0600005A RID: 90 RVA: 0x0000C580 File Offset: 0x0000A780
+		private static IntPtr Uf0KuUOrJs(uint \u0020, int \u0020, uint \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.zrKKzIIveW == null)
+			{
+				R61CSVGZUwXcWdfvYm.zrKKzIIveW = (R61CSVGZUwXcWdfvYm.PoRkGPa4D0Zl4Hujb7P)Marshal.GetDelegateForFunctionPointer(R61CSVGZUwXcWdfvYm.uYLKlr4H0S(R61CSVGZUwXcWdfvYm.BrtYkO4if(), "Open ".Trim() + "Process"), Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554457)));
+			}
+			return R61CSVGZUwXcWdfvYm.zrKKzIIveW(\u0020, \u0020, \u0020);
+		}
+
+		// Token: 0x0600005B RID: 91 RVA: 0x0000C5E0 File Offset: 0x0000A7E0
+		private static int eoZKX47FZs(IntPtr \u0020)
+		{
+			if (R61CSVGZUwXcWdfvYm.ePbadMxtNC == null)
+			{
+				R61CSVGZUwXcWdfvYm.ePbadMxtNC = (R61CSVGZUwXcWdfvYm.XHsYSbaVUCQJRReyQga)Marshal.GetDelegateForFunctionPointer(R61CSVGZUwXcWdfvYm.uYLKlr4H0S(R61CSVGZUwXcWdfvYm.BrtYkO4if(), "Close ".Trim() + "Handle"), Type.GetTypeFromHandle(Q94DTxaMHEtr2a0SerJ.e7WwD0sUGm(33554458)));
+			}
+			return R61CSVGZUwXcWdfvYm.ePbadMxtNC(\u0020);
+		}
+
+		// Token: 0x0600005C RID: 92 RVA: 0x0000C640 File Offset: 0x0000A840
+		private static IntPtr BrtYkO4if()
+		{
+			if (R61CSVGZUwXcWdfvYm.VpcaKcuAD3 == IntPtr.Zero)
+			{
+				R61CSVGZUwXcWdfvYm.VpcaKcuAD3 = R61CSVGZUwXcWdfvYm.jsVKahicSy("kernel ".Trim() + "32.dll");
+			}
+			return R61CSVGZUwXcWdfvYm.VpcaKcuAD3;
+		}
+
+		// Token: 0x0600005D RID: 93 RVA: 0x0000C67C File Offset: 0x0000A87C
+		private static byte[] sjeKt7OPUV(object \u0020)
+		{
+			byte[] array;
+			using (FileStream fileStream = new FileStream(\u0020, FileMode.Open, FileAccess.Read, FileShare.Read))
+			{
+				int num = 0;
+				int i = (int)fileStream.Length;
+				array = new byte[i];
+				while (i > 0)
+				{
+					int num2 = fileStream.Read(array, num, i);
+					num += num2;
+					i -= num2;
+				}
+			}
+			return array;
+		}
+
+		// Token: 0x0600005E RID: 94 RVA: 0x0000C6E8 File Offset: 0x0000A8E8
+		internal static Stream gQdKqXBY7g()
+		{
+			return new MemoryStream();
+		}
+
+		// Token: 0x0600005F RID: 95 RVA: 0x0000C6F0 File Offset: 0x0000A8F0
+		internal static byte[] wXxKr7sJZ8(object \u0020)
+		{
+			return ((MemoryStream)\u0020).ToArray();
+		}
+
+		// Token: 0x06000060 RID: 96 RVA: 0x0000C700 File Offset: 0x0000A900
+		private static byte[] yMZKHRhJ4k(object \u0020)
+		{
+			Stream stream = R61CSVGZUwXcWdfvYm.gQdKqXBY7g();
+			SymmetricAlgorithm symmetricAlgorithm = R61CSVGZUwXcWdfvYm.hvTJ3iU5J();
+			symmetricAlgorithm.Key = new byte[]
+			{
+				19,
+				250,
+				221,
+				26,
+				202,
+				201,
+				49,
+				229,
+				201,
+				145,
+				94,
+				220,
+				175,
+				55,
+				137,
+				236,
+				84,
+				86,
+				251,
+				87,
+				61,
+				34,
+				220,
+				176,
+				138,
+				209,
+				126,
+				54,
+				13,
+				79,
+				94,
+				44
+			};
+			symmetricAlgorithm.IV = new byte[]
+			{
+				183,
+				177,
+				90,
+				50,
+				204,
+				55,
+				110,
+				191,
+				134,
+				236,
+				15,
+				23,
+				58,
+				37,
+				251,
+				166
+			};
+			CryptoStream cryptoStream = new CryptoStream(stream, symmetricAlgorithm.CreateDecryptor(), CryptoStreamMode.Write);
+			cryptoStream.Write(\u0020, 0, \u0020.Length);
+			cryptoStream.Close();
+			byte[] result = R61CSVGZUwXcWdfvYm.wXxKr7sJZ8(stream);
+			u5FNC4aA9D3igoGpH78.vBDwonQ4GD();
+			return result;
+		}
+
+		// Token: 0x06000061 RID: 97 RVA: 0x0000C774 File Offset: 0x0000A974
+		private byte[] kpPKOOq6sR()
+		{
+			return null;
+		}
+
+		// Token: 0x06000062 RID: 98 RVA: 0x0000C784 File Offset: 0x0000A984
+		private byte[] mTYKjGAIKJ()
+		{
+			return null;
+		}
+
+		// Token: 0x06000063 RID: 99 RVA: 0x0000C794 File Offset: 0x0000A994
+		private byte[] UMsK1Wjan3()
+		{
+			return null;
+		}
+
+		// Token: 0x06000064 RID: 100 RVA: 0x0000C7A4 File Offset: 0x0000A9A4
+		private byte[] srsK0wS5OX()
+		{
+			return null;
+		}
+
+		// Token: 0x06000065 RID: 101 RVA: 0x0000C7B4 File Offset: 0x0000A9B4
+		private byte[] AdcKsNVMBa()
+		{
+			int length = "7OlU3ig89xNFX8H3I6Gh".Length;
+			return new byte[]
+			{
+				1,
+				2
+			};
+		}
+
+		// Token: 0x06000066 RID: 102 RVA: 0x0000C7D4 File Offset: 0x0000A9D4
+		private byte[] lEUKbNt0cb()
+		{
+			int length = "XDCsFmQ3c134U8j3xHjWAf".Length;
+			return new byte[]
+			{
+				1,
+				2
+			};
+		}
+
+		// Token: 0x06000067 RID: 103 RVA: 0x0000C7F4 File Offset: 0x0000A9F4
+		internal byte[] evHK64w7Ui()
+		{
+			int length = "PipIHOsEpG3voMyBK".Length;
+			return new byte[]
+			{
+				1,
+				2
+			};
+		}
+
+		// Token: 0x06000068 RID: 104 RVA: 0x0000C814 File Offset: 0x0000AA14
+		internal byte[] AsjKxbnoHT()
+		{
+			int length = "ULCmRMliY7KGgcVzq".Length;
+			return new byte[]
+			{
+				1,
+				2
+			};
+		}
+
+		// Token: 0x06000069 RID: 105 RVA: 0x0000C834 File Offset: 0x0000AA34
+		internal byte[] uW9K2stYwM()
+		{
+			int length = "OncARVDp9EEc0G6QXpfAIc".Length;
+			return new byte[]
+			{
+				1,
+				2
+			};
+		}
+
+		// Token: 0x0600006A RID: 106 RVA: 0x0000C854 File Offset: 0x0000AA54
+		internal byte[] Xf4K4dIPry()
+		{
+			int length = "vM1OBLbuGQbwtp4qde".Length;
+			return new byte[]
+			{
+				1,
+				2
+			};
+		}
+
+		// Token: 0x0600006B RID: 107 RVA: 0x0000C874 File Offset: 0x0000AA74
+		internal static object QKEdyPlufU0YJ3K0o7b(object A_0)
+		{
+			return A_0.mpep2xkqqr();
+		}
+
+		// Token: 0x0600006C RID: 108 RVA: 0x0000C880 File Offset: 0x0000AA80
+		internal static void RuV2F2lXkB6E4DGqfxR(object A_0, long A_1)
+		{
+			A_0.Position = A_1;
+		}
+
+		// Token: 0x0600006D RID: 109 RVA: 0x0000C890 File Offset: 0x0000AA90
+		internal static long aDLp5blttZAXcCljY5u(object A_0)
+		{
+			return A_0.Length;
+		}
+
+		// Token: 0x0600006E RID: 110 RVA: 0x0000C89C File Offset: 0x0000AA9C
+		internal static object MBBrallq80KtACir0dQ(object A_0, int \u0020)
+		{
+			return A_0.IdaaOhOkV3(\u0020);
+		}
+
+		// Token: 0x0600006F RID: 111 RVA: 0x0000C8AC File Offset: 0x0000AAAC
+		internal static void H0iqOSlrRwvtt2aEsIB(object A_0)
+		{
+			A_0.hPla0RBexk();
+		}
+
+		// Token: 0x06000070 RID: 112 RVA: 0x0000C8B8 File Offset: 0x0000AAB8
+		internal static void KqEdy6lHoXgdyTc4vjL(object A_0)
+		{
+			Array.Reverse(A_0);
+		}
+
+		// Token: 0x06000071 RID: 113 RVA: 0x0000C8C4 File Offset: 0x0000AAC4
+		internal static object ELpSMOlOtUa9OfdWJtl(object A_0)
+		{
+			return A_0.GetName();
+		}
+
+		// Token: 0x06000072 RID: 114 RVA: 0x0000C8D0 File Offset: 0x0000AAD0
+		internal static object jaHBygljrnEstCjooUW(object A_0)
+		{
+			return A_0.GetPublicKeyToken();
+		}
+
+		// Token: 0x06000073 RID: 115 RVA: 0x0000C8DC File Offset: 0x0000AADC
+		internal static object E4Cl6Al1Bt8ujvD5qpm()
+		{
+			return R61CSVGZUwXcWdfvYm.hvTJ3iU5J();
+		}
+
+		// Token: 0x06000074 RID: 116 RVA: 0x0000C8E4 File Offset: 0x0000AAE4
+		internal static void hyEZqfl0kppHAsSygZb(object A_0, CipherMode A_1)
+		{
+			A_0.Mode = A_1;
+		}
+
+		// Token: 0x06000075 RID: 117 RVA: 0x0000C8F4 File Offset: 0x0000AAF4
+		internal static object mptHGPlsLhidRmV7OIK(object A_0, object A_1, object A_2)
+		{
+			return A_0.CreateDecryptor(A_1, A_2);
+		}
+
+		// Token: 0x06000076 RID: 118 RVA: 0x0000C908 File Offset: 0x0000AB08
+		internal static object YgJFF3lbotYIbMNte4N()
+		{
+			return R61CSVGZUwXcWdfvYm.gQdKqXBY7g();
+		}
+
+		// Token: 0x06000077 RID: 119 RVA: 0x0000C910 File Offset: 0x0000AB10
+		internal static void I536Kml6SHj3hNpVHdn(object A_0, object A_1, int A_2, int A_3)
+		{
+			A_0.Write(A_1, A_2, A_3);
+		}
+
+		// Token: 0x06000078 RID: 120 RVA: 0x0000C928 File Offset: 0x0000AB28
+		internal static void VyX9KOlxOFCnn2l66xh(object A_0)
+		{
+			A_0.FlushFinalBlock();
+		}
+
+		// Token: 0x06000079 RID: 121 RVA: 0x0000C934 File Offset: 0x0000AB34
+		internal static object WHB4n7l2SKR2okqdLtF(object A_0)
+		{
+			return R61CSVGZUwXcWdfvYm.wXxKr7sJZ8(A_0);
+		}
+
+		// Token: 0x0600007A RID: 122 RVA: 0x0000C940 File Offset: 0x0000AB40
+		internal static void eTTmDil4k3MRgVgdpPZ(object A_0)
+		{
+			A_0.Close();
+		}
+
+		// Token: 0x0600007B RID: 123 RVA: 0x0000C94C File Offset: 0x0000AB4C
+		internal static object MQfkbWlVq6IUo6lmhpp(object A_0)
+		{
+			return A_0.EntryPoint;
+		}
+
+		// Token: 0x0600007C RID: 124 RVA: 0x0000C958 File Offset: 0x0000AB58
+		internal static bool hRGxkvlvUDIYoK8vci8(object A_0, object A_1)
+		{
+			return A_0 == A_1;
+		}
+
+		// Token: 0x0600007D RID: 125 RVA: 0x0000C968 File Offset: 0x0000AB68
+		internal static bool XDZJaUlyZAqCh2OT8FM()
+		{
+			return null == null;
+		}
+
+		// Token: 0x0600007E RID: 126 RVA: 0x0000C970 File Offset: 0x0000AB70
+		internal static object KCLFPZlCNRRf7xUL0hv()
+		{
+			return null;
+		}
+
+		// Token: 0x0600007F RID: 127 RVA: 0x0000C974 File Offset: 0x0000AB74
+		internal static void AuuspYlQZ3uQX6lw2BE()
+		{
+			u5FNC4aA9D3igoGpH78.vBDwonQ4GD();
+		}
+
+		// Token: 0x06000080 RID: 128 RVA: 0x0000C97C File Offset: 0x0000AB7C
+		internal static void uiAvDqlM8YdkvTEnT1R(bool A_0)
+		{
+			RSACryptoServiceProvider.UseMachineKeyStore = A_0;
+		}
+
+		// Token: 0x06000081 RID: 129 RVA: 0x0000C988 File Offset: 0x0000AB88
+		internal static Type flTTool3MrXgsZuroD9(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		// Token: 0x06000082 RID: 130 RVA: 0x0000C994 File Offset: 0x0000AB94
+		internal static object jWXjLFl5r4alNPVGABs(object A_0)
+		{
+			return A_0.Location;
+		}
+
+		// Token: 0x06000083 RID: 131 RVA: 0x0000C9A0 File Offset: 0x0000ABA0
+		internal static int EX9sZslPKMO21P12lYJ(object A_0)
+		{
+			return A_0.Length;
+		}
+
+		// Token: 0x06000084 RID: 132 RVA: 0x0000C9AC File Offset: 0x0000ABAC
+		internal static object e7jJuFlIhdAwlPwc9ds()
+		{
+			return SHA1.Create();
+		}
+
+		// Token: 0x06000085 RID: 133 RVA: 0x0000C9B4 File Offset: 0x0000ABB4
+		internal static object kbR2KilFYxhuAL0bq9r(object A_0)
+		{
+			return CryptoConfig.MapNameToOID(A_0);
+		}
+
+		// Token: 0x06000086 RID: 134 RVA: 0x0000C9C0 File Offset: 0x0000ABC0
+		internal static bool yyAGPFlGiOIyNGC5lRZ(object A_0)
+		{
+			return File.Exists(A_0);
+		}
+
+		// Token: 0x06000087 RID: 135 RVA: 0x0000C9CC File Offset: 0x0000ABCC
+		internal static object jdIukOleIV1BuJ8S1Xf(object A_0, object A_1)
+		{
+			return A_0.GetManifestResourceStream(A_1);
+		}
+
+		// Token: 0x06000088 RID: 136 RVA: 0x0000C9DC File Offset: 0x0000ABDC
+		internal static object fI41QUl9pRS4QF5Bl51(object A_0)
+		{
+			return A_0.mpep2xkqqr();
+		}
+
+		// Token: 0x06000089 RID: 137 RVA: 0x0000C9E8 File Offset: 0x0000ABE8
+		internal static void fcGSmSl8lYiNCIrY1ni(object A_0, long A_1)
+		{
+			A_0.Position = A_1;
+		}
+
+		// Token: 0x0600008A RID: 138 RVA: 0x0000C9F8 File Offset: 0x0000ABF8
+		internal static long Y6bx5rlNH146Wsr22wW(object A_0)
+		{
+			return A_0.Length;
+		}
+
+		// Token: 0x0600008B RID: 139 RVA: 0x0000CA04 File Offset: 0x0000AC04
+		internal static object f9SetNlkfNmm3wUZWi2(object A_0, int \u0020)
+		{
+			return A_0.IdaaOhOkV3(\u0020);
+		}
+
+		// Token: 0x0600008C RID: 140 RVA: 0x0000CA14 File Offset: 0x0000AC14
+		internal static object bM0L7UlBDTWrlUBS14x()
+		{
+			return R61CSVGZUwXcWdfvYm.hvTJ3iU5J();
+		}
+
+		// Token: 0x0600008D RID: 141 RVA: 0x0000CA1C File Offset: 0x0000AC1C
+		internal static void iK1PUnlggaZfkprWCOS(object A_0, CipherMode A_1)
+		{
+			A_0.Mode = A_1;
+		}
+
+		// Token: 0x0600008E RID: 142 RVA: 0x0000CA2C File Offset: 0x0000AC2C
+		internal static object DKrTl7lSlIpcheTLNOe(object A_0, object A_1, object A_2)
+		{
+			return A_0.CreateDecryptor(A_1, A_2);
+		}
+
+		// Token: 0x0600008F RID: 143 RVA: 0x0000CA40 File Offset: 0x0000AC40
+		internal static object SFniqwlWFmpBdHygQuB()
+		{
+			return R61CSVGZUwXcWdfvYm.gQdKqXBY7g();
+		}
+
+		// Token: 0x06000090 RID: 144 RVA: 0x0000CA48 File Offset: 0x0000AC48
+		internal static void miA5RUlJxCwEcRSs0it(object A_0, object A_1, int A_2, int A_3)
+		{
+			A_0.Write(A_1, A_2, A_3);
+		}
+
+		// Token: 0x06000091 RID: 145 RVA: 0x0000CA60 File Offset: 0x0000AC60
+		internal static void YDyF5Klh4piCOpsyaPP(object A_0)
+		{
+			A_0.FlushFinalBlock();
+		}
+
+		// Token: 0x06000092 RID: 146 RVA: 0x0000CA6C File Offset: 0x0000AC6C
+		internal static object a8XBwfloV6BPY7b8QHw()
+		{
+			return Encoding.UTF8;
+		}
+
+		// Token: 0x06000093 RID: 147 RVA: 0x0000CA74 File Offset: 0x0000AC74
+		internal static object uWIJyDlDkK62yUpkEld(object A_0)
+		{
+			return R61CSVGZUwXcWdfvYm.wXxKr7sJZ8(A_0);
+		}
+
+		// Token: 0x06000094 RID: 148 RVA: 0x0000CA80 File Offset: 0x0000AC80
+		internal static object TVZGPOlRY44e5WoWPij(object A_0, object A_1)
+		{
+			return A_0.GetString(A_1);
+		}
+
+		// Token: 0x06000095 RID: 149 RVA: 0x0000CA90 File Offset: 0x0000AC90
+		internal static void dfA5gqlYgwUZo8YpqxH(object A_0, object A_1)
+		{
+			A_0.FromXmlString(A_1);
+		}
+
+		// Token: 0x06000096 RID: 150 RVA: 0x0000CAA0 File Offset: 0x0000ACA0
+		internal static void xHFXP1liHMFvTmBXiPn(object A_0)
+		{
+			A_0.Close();
+		}
+
+		// Token: 0x06000097 RID: 151 RVA: 0x0000CAAC File Offset: 0x0000ACAC
+		internal static void qQ0HxplpvfgV7R4tJJx(object A_0)
+		{
+			A_0.hPla0RBexk();
+		}
+
+		// Token: 0x06000098 RID: 152 RVA: 0x0000CAB8 File Offset: 0x0000ACB8
+		internal static void VKiORRlctaJ3ZPpLj8i(object A_0, object A_1, uint \u0020, object A_3)
+		{
+			R61CSVGZUwXcWdfvYm.EFhDQtwZt(A_0, A_1, \u0020, A_3);
+		}
+
+		// Token: 0x06000099 RID: 153 RVA: 0x0000CAD0 File Offset: 0x0000ACD0
+		internal static ushort Pdm0BPlEU4AhHKQMxFY(object A_0)
+		{
+			return A_0.ReadUInt16();
+		}
+
+		// Token: 0x0600009A RID: 154 RVA: 0x0000CADC File Offset: 0x0000ACDC
+		internal static int Gm7eEAlUMFYUFOVbRHH(object A_0, object A_1, int A_2, int A_3)
+		{
+			return A_0.Read(A_1, A_2, A_3);
+		}
+
+		// Token: 0x0600009B RID: 155 RVA: 0x0000CAF4 File Offset: 0x0000ACF4
+		internal static void i03feDlTaiwFYdeBUsH(object A_0, object A_1, int \u0020, int \u0020)
+		{
+			R61CSVGZUwXcWdfvYm.PdSRVafEa(A_0, A_1, \u0020, \u0020);
+		}
+
+		// Token: 0x0600009C RID: 156 RVA: 0x0000CB0C File Offset: 0x0000AD0C
+		internal static long jXMdpSlnQlnBAa9TkkE(object A_0)
+		{
+			return A_0.Position;
+		}
+
+		// Token: 0x0600009D RID: 157 RVA: 0x0000CB18 File Offset: 0x0000AD18
+		internal static uint nuFj5clL9f2GfflgDZW(object A_0)
+		{
+			return A_0.ReadUInt32();
+		}
+
+		// Token: 0x0600009E RID: 158 RVA: 0x0000CB24 File Offset: 0x0000AD24
+		internal static uint yiEQcTlZFCp8lZX7l2R(uint \u0020, int \u0020, long \u0020, object A_3)
+		{
+			return R61CSVGZUwXcWdfvYm.Ht7Yb8T33(\u0020, \u0020, \u0020, A_3);
+		}
+
+		// Token: 0x0600009F RID: 159 RVA: 0x0000CB3C File Offset: 0x0000AD3C
+		internal static long bydjUtlmx1yk1yBAFns(long A_0, long A_1)
+		{
+			return Math.Min(A_0, A_1);
+		}
+
+		// Token: 0x060000A0 RID: 160 RVA: 0x0000CB4C File Offset: 0x0000AD4C
+		internal static object n6QjO4lzma6PiN8yQo6(object A_0, object A_1, int A_2, int A_3)
+		{
+			return A_0.TransformFinalBlock(A_1, A_2, A_3);
+		}
+
+		// Token: 0x060000A1 RID: 161 RVA: 0x0000CB64 File Offset: 0x0000AD64
+		internal static object zb5MYn7dX59rRTeLIt6(object A_0, int A_1)
+		{
+			return A_0.ReadBytes(A_1);
+		}
+
+		// Token: 0x060000A2 RID: 162 RVA: 0x0000CB74 File Offset: 0x0000AD74
+		internal static void XYUpks7KwF1miPgDiOl(object A_0)
+		{
+			Array.Reverse(A_0);
+		}
+
+		// Token: 0x060000A3 RID: 163 RVA: 0x0000CB80 File Offset: 0x0000AD80
+		internal static object Tor6S67aUD8uSbiLXXy(object A_0)
+		{
+			return A_0.Hash;
+		}
+
+		// Token: 0x060000A4 RID: 164 RVA: 0x0000CB8C File Offset: 0x0000AD8C
+		internal static bool Vl7KkJ7lrkpVd49Lg5X(object A_0, object A_1, object A_2, object A_3)
+		{
+			return A_0.VerifyHash(A_1, A_2, A_3);
+		}
+
+		// Token: 0x060000A5 RID: 165 RVA: 0x0000CBA4 File Offset: 0x0000ADA4
+		internal static void su41cL77aerAvaaLV9H(object A_0)
+		{
+			A_0.Close();
+		}
+
+		// Token: 0x060000A6 RID: 166 RVA: 0x0000CBB0 File Offset: 0x0000ADB0
+		internal static object WCE4jw7wH3bSHJGA9aQ(object A_0)
+		{
+			return A_0.GetName();
+		}
+
+		// Token: 0x060000A7 RID: 167 RVA: 0x0000CBBC File Offset: 0x0000ADBC
+		internal static object H3lqE47yEVI7tEKGgmC(object A_0)
+		{
+			return A_0.Name;
+		}
+
+		// Token: 0x060000A8 RID: 168 RVA: 0x0000CBC8 File Offset: 0x0000ADC8
+		internal static object R1sspt7CZ8fNmJsEUnT(object A_0, object A_1)
+		{
+			return A_0 + A_1;
+		}
+
+		// Token: 0x060000A9 RID: 169 RVA: 0x0000CBD8 File Offset: 0x0000ADD8
+		internal static bool Ks47lMlAMJ3nLW7Tn5l()
+		{
+			return null == null;
+		}
+
+		// Token: 0x060000AA RID: 170 RVA: 0x0000CBE0 File Offset: 0x0000ADE0
+		internal static object ek7swLlfNCpVl62VOOZ()
+		{
+			return null;
+		}
+
+		// Token: 0x0400002E RID: 46
+		private static List<string> rMdKF9lSwn;
+
+		// Token: 0x0400002F RID: 47
+		private static object IiBKWSq2Vi;
+
+		// Token: 0x04000030 RID: 48
+		private static int xOMKJRu0p8;
+
+		// Token: 0x04000031 RID: 49
+		private static bool IxSKi4AOrX;
+
+		// Token: 0x04000032 RID: 50
+		private static object AWlKZxw5JR;
+
+		// Token: 0x04000033 RID: 51
+		private static object nb8K5HIvL5;
+
+		// Token: 0x04000034 RID: 52
+		private static object orkKITwVLf;
+
+		// Token: 0x04000035 RID: 53
+		private static object kcOKLVl1e8;
+
+		// Token: 0x04000036 RID: 54
+		private static object kqQKeSHYC2;
+
+		// Token: 0x04000037 RID: 55
+		[R61CSVGZUwXcWdfvYm.KmGBgSalOoY0tpOlbTU(typeof(R61CSVGZUwXcWdfvYm.KmGBgSalOoY0tpOlbTU.ucXK2Pa7JD9Ylbem8GH<object>[]))]
+		private static bool r28KURoRVi;
+
+		// Token: 0x04000038 RID: 56
+		private static object S7iKB4O9CN;
+
+		// Token: 0x04000039 RID: 57
+		private static int e9EKPmMuZ5;
+
+		// Token: 0x0400003A RID: 58
+		private static object z3fKk6bSfp;
+
+		// Token: 0x0400003B RID: 59
+		private static int FtdKgdHOEZ;
+
+		// Token: 0x0400003C RID: 60
+		private static IntPtr Mh1KNxNikf;
+
+		// Token: 0x0400003D RID: 61
+		private static bool tTKKpqWyaq;
+
+		// Token: 0x0400003E RID: 62
+		private static int kF0KcjDnj3;
+
+		// Token: 0x0400003F RID: 63
+		private static IntPtr VpcaKcuAD3;
+
+		// Token: 0x04000040 RID: 64
+		private static bool qpMKfTvCwH;
+
+		// Token: 0x04000041 RID: 65
+		private static long BjYKRR3RoA;
+
+		// Token: 0x04000042 RID: 66
+		internal static object Y6iKDusYpV;
+
+		// Token: 0x04000043 RID: 67
+		private static object C0FKAyReFG;
+
+		// Token: 0x04000044 RID: 68
+		internal static object nWYKvQALW7;
+
+		// Token: 0x04000045 RID: 69
+		private static List<int> TdcKGUQvCB;
+
+		// Token: 0x04000046 RID: 70
+		private static Dictionary<int, int> cD6K35yaKH;
+
+		// Token: 0x04000047 RID: 71
+		private static object m6XKnvFXo2;
+
+		// Token: 0x04000048 RID: 72
+		internal static object TpqKM0ULMZ;
+
+		// Token: 0x04000049 RID: 73
+		private static bool E2TKVDaOci = false;
+
+		// Token: 0x0400004A RID: 74
+		private static object ePbadMxtNC;
+
+		// Token: 0x0400004B RID: 75
+		internal static object z11KoUL8EL;
+
+		// Token: 0x0400004C RID: 76
+		internal static object H0dKTACSUb;
+
+		// Token: 0x0400004D RID: 77
+		private static bool pS2KQtMgYO;
+
+		// Token: 0x0400004E RID: 78
+		private static object QCAK9Bu2Qd;
+
+		// Token: 0x0400004F RID: 79
+		private static long ytCKh9xAoa;
+
+		// Token: 0x04000050 RID: 80
+		private static IntPtr gCwKECbAOc;
+
+		// Token: 0x04000051 RID: 81
+		private static object yQoKmtiOaH;
+
+		// Token: 0x04000052 RID: 82
+		private static int CotKYXIohI;
+
+		// Token: 0x04000053 RID: 83
+		private static IntPtr HoNK8mhgOA;
+
+		// Token: 0x04000054 RID: 84
+		private static object zrKKzIIveW;
+
+		// Token: 0x04000055 RID: 85
+		private static bool iEsKS3Y2Pu;
+
+		// Token: 0x0200000D RID: 13
+		// (Invoke) Token: 0x060000AC RID: 172
+		private delegate void HaJPTkaaPjsKsk29rXr(object o);
+
+		// Token: 0x0200000E RID: 14
+		internal class KmGBgSalOoY0tpOlbTU : Attribute
+		{
+			// Token: 0x060000AF RID: 175 RVA: 0x0000CBE4 File Offset: 0x0000ADE4
+			public KmGBgSalOoY0tpOlbTU(object \u0020)
+			{
+			}
+
+			// Token: 0x0200000F RID: 15
+			internal class ucXK2Pa7JD9Ylbem8GH<c9mQqlawPg4ZoiDMVHU>
+			{
+				// Token: 0x060000B0 RID: 176 RVA: 0x0000CBF4 File Offset: 0x0000ADF4
+				public ucXK2Pa7JD9Ylbem8GH()
+				{
+					u5FNC4aA9D3igoGpH78.vBDwonQ4GD();
+					base..ctor();
+					int num = 0;
+					if (!false)
+					{
+						num = 0;
+					}
+					switch (num)
+					{
+					default:
+						return;
+					}
+				}
+
+				// Token: 0x060000B1 RID: 177 RVA: 0x0000CC48 File Offset: 0x0000AE48
+				// Note: this type is marked as 'beforefieldinit'.
+				static ucXK2Pa7JD9Ylbem8GH()
+				{
+					R61CSVGZUwXcWdfvYm.u7Zi0rdI7();
+				}
+
+				// Token: 0x060000B2 RID: 178 RVA: 0x0000CC58 File Offset: 0x0000AE58
+				internal static bool sbffTF7gRcrtSq9xO40()
+				{
+					return R61CSVGZUwXcWdfvYm.KmGBgSalOoY0tpOlbTU.ucXK2Pa7JD9Ylbem8GH<!0>.VEvgmE7BX55fbxlGlgr == null;
+				}
+
+				// Token: 0x060000B3 RID: 179 RVA: 0x0000CC6C File Offset: 0x0000AE6C
+				internal static object T4QG8R7STK6OTQh5beb()
+				{
+					return R61CSVGZUwXcWdfvYm.KmGBgSalOoY0tpOlbTU.ucXK2Pa7JD9Ylbem8GH<!0>.VEvgmE7BX55fbxlGlgr;
+				}
+
+				// Token: 0x04000056 RID: 86
+				internal static object VEvgmE7BX55fbxlGlgr;
+			}
+		}
+
+		// Token: 0x02000010 RID: 16
+		internal class NDmLxtayHfD9fVlU2tV
+		{
+			// Token: 0x060000B4 RID: 180 RVA: 0x0000CC7C File Offset: 0x0000AE7C
+			internal static string rIdaCODius(object \u0020, object \u0020)
+			{
+				byte[] bytes = Encoding.Unicode.GetBytes(\u0020);
+				byte[] key = new byte[]
+				{
+					82,
+					102,
+					104,
+					110,
+					32,
+					77,
+					24,
+					34,
+					118,
+					181,
+					51,
+					17,
+					18,
+					51,
+					12,
+					109,
+					10,
+					32,
+					77,
+					24,
+					34,
+					158,
+					161,
+					41,
+					97,
+					28,
+					118,
+					181,
+					5,
+					25,
+					1,
+					88
+				};
+				byte[] iv = R61CSVGZUwXcWdfvYm.bnuoAJ350(Encoding.Unicode.GetBytes(\u0020));
+				MemoryStream memoryStream = new MemoryStream();
+				SymmetricAlgorithm symmetricAlgorithm = R61CSVGZUwXcWdfvYm.hvTJ3iU5J();
+				symmetricAlgorithm.Key = key;
+				symmetricAlgorithm.IV = iv;
+				CryptoStream cryptoStream = new CryptoStream(memoryStream, symmetricAlgorithm.CreateEncryptor(), CryptoStreamMode.Write);
+				cryptoStream.Write(bytes, 0, bytes.Length);
+				cryptoStream.Close();
+				return Convert.ToBase64String(memoryStream.ToArray());
+			}
+		}
+
+		// Token: 0x02000011 RID: 17
+		// (Invoke) Token: 0x060000B7 RID: 183
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		internal delegate uint JqC87VauYnF4aS1SMdM(IntPtr classthis, IntPtr comp, IntPtr info, [MarshalAs(UnmanagedType.U4)] uint flags, IntPtr nativeEntry, ref uint nativeSizeOfCode);
+
+		// Token: 0x02000012 RID: 18
+		// (Invoke) Token: 0x060000BB RID: 187
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		private delegate IntPtr RNwomhaXVyEDJVdOwNB();
+
+		// Token: 0x02000013 RID: 19
+		internal struct fwlFbIatsHZtwgvKqvY
+		{
+			// Token: 0x04000057 RID: 87
+			internal bool ehZaqDvrAW;
+
+			// Token: 0x04000058 RID: 88
+			internal byte[] qVyarmhCcr;
+		}
+
+		// Token: 0x02000014 RID: 20
+		internal class f1fZSeaHsIW0CLsDrx8
+		{
+			// Token: 0x060000BE RID: 190 RVA: 0x0000CD10 File Offset: 0x0000AF10
+			public f1fZSeaHsIW0CLsDrx8(Stream \u0020)
+			{
+				this.UGyasjLhLj = new BinaryReader(\u0020);
+			}
+
+			// Token: 0x060000BF RID: 191 RVA: 0x0000CD2C File Offset: 0x0000AF2C
+			internal Stream mpep2xkqqr()
+			{
+				return this.UGyasjLhLj.BaseStream;
+			}
+
+			// Token: 0x060000C0 RID: 192 RVA: 0x0000CD40 File Offset: 0x0000AF40
+			internal byte[] IdaaOhOkV3(int \u0020)
+			{
+				return this.UGyasjLhLj.ReadBytes(\u0020);
+			}
+
+			// Token: 0x060000C1 RID: 193 RVA: 0x0000CD58 File Offset: 0x0000AF58
+			internal int FuAajR7mY1(byte[] \u0020, int \u0020, int \u0020)
+			{
+				return this.UGyasjLhLj.Read(\u0020, \u0020, \u0020);
+			}
+
+			// Token: 0x060000C2 RID: 194 RVA: 0x0000CD70 File Offset: 0x0000AF70
+			internal int CxVa1Fe5O8()
+			{
+				return this.UGyasjLhLj.ReadInt32();
+			}
+
+			// Token: 0x060000C3 RID: 195 RVA: 0x0000CD84 File Offset: 0x0000AF84
+			internal void hPla0RBexk()
+			{
+				this.UGyasjLhLj.Close();
+			}
+
+			// Token: 0x04000059 RID: 89
+			private object UGyasjLhLj;
+		}
+
+		// Token: 0x02000015 RID: 21
+		// (Invoke) Token: 0x060000C5 RID: 197
+		[UnmanagedFunctionPointer(CallingConvention.StdCall, CharSet = CharSet.Ansi)]
+		private delegate IntPtr lXXyw0abeHX6ifapne8(IntPtr hModule, string lpName, uint lpType);
+
+		// Token: 0x02000016 RID: 22
+		// (Invoke) Token: 0x060000C9 RID: 201
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		private delegate IntPtr ugcRtoa6sNxKu8xAvvu(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+
+		// Token: 0x02000017 RID: 23
+		// (Invoke) Token: 0x060000CD RID: 205
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		private delegate int HHSjj7axIqEaHQQlVBG(IntPtr hProcess, IntPtr lpBaseAddress, [In] [Out] byte[] buffer, uint size, out IntPtr lpNumberOfBytesWritten);
+
+		// Token: 0x02000018 RID: 24
+		// (Invoke) Token: 0x060000D1 RID: 209
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		private delegate int fwdNXCa2ZiC4759xv4t(IntPtr lpAddress, int dwSize, int flNewProtect, ref int lpflOldProtect);
+
+		// Token: 0x02000019 RID: 25
+		// (Invoke) Token: 0x060000D5 RID: 213
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		private delegate IntPtr PoRkGPa4D0Zl4Hujb7P(uint dwDesiredAccess, int bInheritHandle, uint dwProcessId);
+
+		// Token: 0x0200001A RID: 26
+		// (Invoke) Token: 0x060000D9 RID: 217
+		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
+		private delegate int XHsYSbaVUCQJRReyQga(IntPtr ptr);
+
+		// Token: 0x0200001B RID: 27
+		[Flags]
+		private enum OeQ5J4avT7imrUQkaVe
+		{
+
+		}
+	}
+}
